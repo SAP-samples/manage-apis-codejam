@@ -38,8 +38,8 @@ See below for an overview of the exercises part of this CodeJam.
 
 * Please ensure that you have completed all the [prerequisites](prerequisites.md).
 * Exercises:
-  * [Exercise 01 - Getting familiar with the SAP API Business Hub](./exercises/01-getting-familiar-api-business-hub/README.md#exercise-01---getting-familiar-with-the-sap-api-business-hub)
-  * [Exercise 02 - ](./exercises/02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services)
+    * [Exercise 01 - The OpenAPI specification](./exercises/01-open-api-specification/README.md#exercise-01---the-openapi-specification)
+    * [Exercise 02 - Getting familiar with the SAP API Business Hub](./exercises/02-getting-familiar-api-business-hub/README.md#exercise-02---getting-familiar-with-the-sap-api-business-hub)
 ### Troubleshooting
 
 While going through the exercises, you might encounter common problems not explicitly related to them. Check out the [troubleshooting.md](troubleshooting.md) page, which includes a list of these common problems and their potential solutions.
