@@ -22,6 +22,13 @@ Thanks for taking a couple of minutes to give feedback, which will help me impro
 - [ ] Used it now and then
 - [ ] Regular user
 
+### What was your experience with SAP API Management before this session?
+
+- [ ] Not much at all
+- [ ] Basic knowledge
+- [ ] Used it now and then
+- [ ] Regular user
+
 ### Did this session meet your expectations?
 
 - [ ] Not really
@@ -44,7 +51,7 @@ Thanks for taking a couple of minutes to give feedback, which will help me impro
 - [ ] Not relevant enough
 - [ ] Hard to do
 - [ ] About right
-- [ ] Helpful / informative
+- [ ] Helpful/informative
 
 ### What is your feeling about the SAP Integration Suite and its different capabilities?
 
