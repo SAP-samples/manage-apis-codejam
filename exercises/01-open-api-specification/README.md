@@ -16,11 +16,11 @@ In simple terms, the specification is a document that describes an API.
 
 The OpenAPI specification was donated to the Linux Foundation under the [OpenAPI Initiative](https://www.openapis.org/) back in 2015. Before this, it was known as Swagger specification. You might bump into some websites/documentation that still refers to the specification as Swagger or use Swagger and OpenAPI spec interchangeably. The proper name is OpenAPI, not Swagger or Open API, and it is how I will refer to it in this blog post.
 
-    [Swagger](https://swagger.io/) is a collection of tools for API development created by [SmartBear Software](https://smartbear.com/). One of its most popular tools, and one that you’ve probably seen around, is [Swagger UI](https://swagger.io/tools/swagger-ui/). Swagger UI is commonly embedded in products, to allow developers to test the APIs that they publish. You can see a Swagger UI in the SAP Ariba Developer Portal or in the API Business Hub Enterprise. Unfortunately, people commonly refer to Swagger UI as just Swagger which can be confusing at times.
+    [Swagger](https://swagger.io/) is a collection of tools for API development created by [SmartBear Software](https://smartbear.com/). One of its most popular tools, and one that you’ve probably seen around, is [Swagger UI](https://swagger.io/tools/swagger-ui/). Swagger UI is commonly embedded in products, to allow developers to test the APIs that they publish. You can see a Swagger UI in the SAP Ariba Developer Portal or the API Business Hub Enterprise. Unfortunately, people commonly refer to Swagger UI as just Swagger which can be confusing at times.
 
 ## Why is it important?
 
-The OpenAPI specification is an industry-standard, it is widely adopted by different vendors/services to document their APIs and there is a [huge community](https://openapi.tools/) behind it. SAP has adopted the OpenAPI spec to document its APIs, e.g. in the SAP API Business Hub you can find the OpenAPI spec for the APIs exposed by the different products. If you download the JSON file listed within the [SAP S/4HANA Cloud Business Partner API](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) (`API resources > API specification > JSON`) and inspect it, you'll notice that it follows the OpenAPI spec `3.0.0`. Also, various SAP products, e.g. [SAP Process Automation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/609538e04bc843d887011765c14ecdda.html?locale=en-US), [API Management](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/3ce080d478a34256b5dd4e971e7961f8.html?locale=en-US), [Cloud Integration](https://help.sap.com/docs/CLOUD_INTEGRATION/4b57f249012e4e1f8c15cbd5dbb4fff3/fb7c1df576d94516937ce773c456068a.html?locale=en-US), [SAP Data Intelligence](https://help.sap.com/docs/SAP_DATA_INTELLIGENCE/ca509b7635484070a655738be408da63/439278cbff87491c802d75de8cc5c97f.html?locale=en-US), use OpenAPI spec to define/consume APIs.
+The OpenAPI specification is an industry-standard, it is widely adopted by different vendors/services to document their APIs and there is a [huge community](https://openapi.tools/) behind it. SAP has adopted the OpenAPI spec to document its APIs, e.g. in the SAP Business Accelerator Hub you can find the OpenAPI spec for the APIs exposed by the different products. If you download the JSON file listed within the [SAP S/4HANA Cloud Business Partner API](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) (`API resources > API specification > JSON`) and inspect it, you'll notice that it follows the OpenAPI spec `3.0.0`. Also, various SAP products, e.g. [SAP Process Automation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/609538e04bc843d887011765c14ecdda.html?locale=en-US), [API Management](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/3ce080d478a34256b5dd4e971e7961f8.html?locale=en-US), [Cloud Integration](https://help.sap.com/docs/CLOUD_INTEGRATION/4b57f249012e4e1f8c15cbd5dbb4fff3/fb7c1df576d94516937ce773c456068a.html?locale=en-US), [SAP Data Intelligence](https://help.sap.com/docs/SAP_DATA_INTELLIGENCE/ca509b7635484070a655738be408da63/439278cbff87491c802d75de8cc5c97f.html?locale=en-US), use OpenAPI spec to define/consume APIs.
 
 <p align = "center">
     <img alt="Business Partner API - specification" src="assets/business-partner-open-api-spec.png" width="90%"/><br/>
@@ -29,7 +29,7 @@ The OpenAPI specification is an industry-standard, it is widely adopted by diffe
 
 ## What does an OpenAPI spec look like?
 
-The OpenAPI spec can be in JSON or YAML format. To get familiar with the content of an OpenAPI spec document, let’s look at the OpenAPI spec of an API available in the API Business Hub. If you download the JSON file listed within a product API, e.g. SAP S/4HANA Cloud – [Business Partner API (A2X)](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) (API resources > API specification > JSON), and inspect it. You’ll notice a structure like the one in the screenshots below.
+The OpenAPI spec can be in JSON or YAML format. To get familiar with the content of an OpenAPI spec document, let’s look at the OpenAPI spec of an API available in the Business Accelerator Hub. If you download the JSON file listed within a product API, e.g. SAP S/4HANA Cloud – [Business Partner API (A2X)](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) (API resources > API specification > JSON), and inspect it. You’ll notice a structure like the one in the screenshots below.
 
 In the OpenAPI spec, there are only 3 required sections – openapi, info, and paths:
 - openapi: We can see that the spec below follows the OpenAPI spec version 3.0.0.
@@ -38,7 +38,7 @@ In the OpenAPI spec, there are only 3 required sections – openapi, info, and p
 
     OpenAPI%20specification%20document%20-%20headers
 
-    Specification extensions: All the x- fields, e.g. x-sap-api-type, x-sap-shortText, x-sap-api-deprecated, that are included in the image above are extension fields. In this case, they are there to document additional information for the different types of APIs that SAP products expose. The SAP API Business Hub process these specification extensions to better reflect the APIs in the UI.
+    Specification extensions: All the x- fields, e.g. x-sap-api-type, x-sap-shortText, x-sap-api-deprecated, that are included in the image above are extension fields. In this case, they are there to document additional information for the different types of APIs that SAP products expose. The SAP Business Accelerator Hub process these specification extensions to better reflect the APIs in the UI.
 
 All other sections in the spec, e.g. components, externalDocs, security, servers, tags are optional. In the screenshots, we can see that these have been specified for the API but they might not be included, e.g. if there is no server information or no security in the API. Let’s explore these optional sections:
 
@@ -84,6 +84,6 @@ If you finish earlier than your fellow participants, you might like to ponder th
 
 ## Next
 
-Continue to 👉 [Exercise 02 - Getting familiar with the SAP API Business Hub](../02-getting-familiar-api-business-hub/README.md#exercise-02---getting-familiar-with-the-sap-api-business-hub)
+Continue to 👉 [Exercise 02 - Getting familiar with the SAP Business Accelerator Hub](../02-getting-familiar-business-accelerator-hub/README.md#exercise-02---getting-familiar-with-the-sap-business-accelerator-hub)
 
 [^1]: OpenAPI Specification: [https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#infoObject](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#infoObject)

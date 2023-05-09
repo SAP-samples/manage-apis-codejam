@@ -94,7 +94,7 @@ October, 2022
 
 # SAP CodeJam - Exercises
 
-* [Exercise 01 - Getting familiar with the SAP API Business Hub](./01-getting-familiar-api-business-hub/README.md#exercise-01---getting-familiar-with-the-sap-api-business-hub)
+* [Exercise 01 - Getting familiar with the SAP Business Accelerator Hub](./01-getting-familiar-business-accelerator-hub/README.md#exercise-01---getting-familiar-with-the-sap-business-accelerator-hub)
 * [Exercise 02 - ]
 * [(Optional) Exercise 01 - Running locally services used in CodeJam](./optional-01-running-locally/README.md#optional-exercise-01---running-locally-services-used-in-codejam)
 
@@ -102,9 +102,9 @@ October, 2022
 --- 
 <!-- _class: centersingleimage -->
 
-# Exercise 01 - Getting familiar with the SAP API Business Hub
+# Exercise 01 - Getting familiar with the SAP Business Accelerator Hub
 
-![width:25cm height:14cm](exercises/01-getting-familiar-api-business-hub/assets/S4HANACloud-API-BusinessPartner.png)
+![width:25cm height:14cm](exercises/01-getting-familiar-business-accelerator-hub/assets/S4HANACloud-API-BusinessPartner.png)
 
 --- 
 <!-- _class: centersingleimage -->
