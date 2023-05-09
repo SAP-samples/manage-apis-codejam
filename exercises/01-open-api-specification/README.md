@@ -34,9 +34,12 @@ The OpenAPI spec can be in JSON or YAML format. To get familiar with the content
 In the OpenAPI spec, there are only 3 required sections – openapi, info, and paths:
 - openapi: We can see that the spec below follows the OpenAPI spec version 3.0.0.
 - info: Includes some metadata of the API.
-- paths: This sections tells us all the available paths and operations (GET, PUT, POST, DELETE, etc.) for the API.
+- paths: This section tells us all the available paths and operations (GET, PUT, POST, DELETE, etc.) for the API.
 
-    OpenAPI%20specification%20document%20-%20headers
+    <p align = "center">
+        <img alt="OpenAPI specification headers" src="assets/open-api-spec-headers.png" width="90%"/><br/>
+        <i>OpenAPI specification headers</i>
+    </p>
 
     Specification extensions: All the x- fields, e.g. x-sap-api-type, x-sap-shortText, x-sap-api-deprecated, that are included in the image above are extension fields. In this case, they are there to document additional information for the different types of APIs that SAP products expose. The SAP Business Accelerator Hub process these specification extensions to better reflect the APIs in the UI.
 
@@ -48,9 +51,10 @@ All other sections in the spec, e.g. components, externalDocs, security, servers
 - servers: Connectivity information for the server(s) where the API is available.
 - tags: Additional metadata can be provided in this section.
 
-    OpenAPI%20specification%20document%20-%20paths
-
-OpenAPI specification document – paths
+    <p align = "center">
+        <img alt="OpenAPI specification document - paths" src="assets/open-api-spec-paths.png" width="90%"/><br/>
+        <i>OpenAPI specification document - paths</i>
+    </p>
 
 Also, it is important to highlight that the OpenAPI specification has been adopted in different SAP products:
 - Cloud Application Programming model:
@@ -66,14 +70,11 @@ Also, it is important to highlight that the OpenAPI specification has been adopt
 
 ## Summary
 
-You've made it to the last exercise of this CodeJam. Congratulations!!! 🎉 🙌. This is no easy feat as there is a lot to read/learn/process in the CodeJam and you need to dedicate some solid focus time to go through the exercises. Great job 👏👏👏!
-
-We've achieved a lot in this exercise. We learnt about OpenAPI specifications, and how we can use a spec to create an API in API Management. We also modified how we communicate with our integration flow by applying/adding policies to our API and deployed the changes several times.
+We've learnt about OpenAPI specifications, the different parts that compose a specification, and how different SAP products have adopted the OpenAPI specification. We will be using OpenAPI specifications in different exercises throughout this CodeJam.
 
 ## Further reading
 
 * [OpenAPIs in the SAP ecosystem](https://blogs.sap.com/2022/10/10/openapis-in-the-sap-ecosystem/)
-* [Security Best Practices - Policy Templates](https://api.sap.com/package/SecurityBestPractices/policytemplate)
 * [Additional Attributes in OpenAPI Specification](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/35f357c811f546c5ae3451df42f61ea0.html?locale=en-US)
 
 ---
