@@ -8,7 +8,7 @@ At the end of this exercise, you'll have an understanding of the SAP Business Ac
 
 Let's start by exploring the various features of the SAP Business Accelerator Hub.
 
-👉 Perform all the steps in [tutorial: Tour the SAP Business Accelerator Hub](https://developers.sap.com/tutorials/hcp-abh-getting-started.html).
+👉 Perform all the steps in the [tutorial: Tour the SAP Business Accelerator Hub](https://developers.sap.com/tutorials/hcp-abh-getting-started.html).
 
 So far we know that it is possible to interact with the APIs available for different SAP products via the SAP Business Accelerator Hub. What other type of content can we find for a product? Let's use [SAP S/4HANA Cloud](https://api.sap.com/products/SAPS4HANACloud/overview) as an example.
 
@@ -28,7 +28,7 @@ There is a wealth of content available for each SAP product in the SAP Business 
 
 ## Explore the Business Partner API available in SAP S/4HANA Cloud 
 
-As part of this CodeJam we will simulate interacting with the Business Partner data from an SAP S/4HANA system. 
+As part of this CodeJam we will interact with the Business Partner data from an SAP S/4HANA Cloud system. The Business Partner API exposes Business Partner, Supplier and Customer data from SAP S/4HANA Cloud.
 
 👉 Now that you are familiar with how to get around the SAP Business Accelerator Hub, search for the [Business Partner API](https://api.sap.com/products/SAPS4HANACloud/apis/all) available for SAP S/4HANA Cloud, try it out and get acquainted with the response of the [/A_BusinessPartner](https://api.sap.com/api/API_BUSINESS_PARTNER/tryout) method.
 
