@@ -16,7 +16,7 @@ So far we know that it is possible to interact with the APIs available for diffe
 
 ![SAP S/4HANA Cloud Categories](assets/S4HANACloud-Content.png)
 
-In the case of SAP S/4HANA Cloud we have the following type of content available:
+In the case of SAP S/4HANA Cloud, we have the following type of content available:
 - *APIs*: APIs are application programming interfaces (along with instructions and other documentation) made available by SAP to developers to access SAP services, for extending solutions, integrating with other solutions, or building new apps.
 - *Events*: A business event is a message that is sent to notify a consumer that an SAP Object Type has changed. 
 - *CDS Views*: Core Data Services (CDS) views are semantically rich data models, providing highly efficient built-in functions like aggregations, annotations, and conceptual associations. 
@@ -24,7 +24,7 @@ In the case of SAP S/4HANA Cloud we have the following type of content available
 - *Integrations*: Integrations between SAP S/4HANA Cloud and other SAP products and third parties.
 - *Workflow Management*: Readily available content to digitize workflows, manage decisions, gain end-to-end process visibility, and configure common processes.
 
-There is a wealth of content available for each SAP product in the SAP Business Accelerator Hub. It is likely that for common integration scenarios there will be integration content readily available in the SAP Business Accelerator Hub, e.g. integration between SAP S/4HANA Cloud and governmental institutions - [Document and Reporting Compliance](https://api.sap.com/products/SAPS4HANACloud/overview?target=SAPDocumentandReportingCompliance). If that's the case, there is no need to build an integration but this content can easily be imported into your SAP Cloud Integration tenant, configured and deployed. 
+There is a wealth of content available for each SAP product in the SAP Business Accelerator Hub. It is likely that for common integration scenarios, there will be integration content readily available in the SAP Business Accelerator Hub, e.g. integration between SAP S/4HANA Cloud and governmental institutions - [Document and Reporting Compliance](https://api.sap.com/products/SAPS4HANACloud/overview?target=SAPDocumentandReportingCompliance). If that's the case, there is no need to build an integration but this content can easily be imported into your SAP Cloud Integration tenant, configured and deployed. 
 
 ## Explore the Business Partner API available in SAP S/4HANA Cloud 
 
@@ -53,7 +53,7 @@ Available values: to_BuPaIdentification, to_BuPaIndustry, to_BusinessPartnerAddr
 
 Now that you are familiar with the basic functionality of SAP Business Accelerator Hub and the Business Partner API, we are ready to start interacting with the services from which our integration will be extracting data.
 
-Although we focused, in this exercise, on exploring APIs.... you can also find other types of objects in the Business Accelerator Hub, e.g. API Management - Policy templates. We will see more on this in [exercise 08](../08-expose-integration-flow-api-management/).
+Although we focused, in this exercise, on exploring APIs.... you can also find other types of objects in the Business Accelerator Hub, e.g. API Management - Policy templates. We will see more on this in [exercise 0X](../0X-expose-integration-flow-api-management/).
 
 ## Further Study
 
@@ -69,6 +69,6 @@ If you finish earlier than your fellow participants, you might like to ponder th
 2. We were able to retrieve data from a sandbox environment via the web browser. What is required to retrieve data from the sandbox APIs available in SAP Business Accelerator via other utilities/applications, e.g. curl, Postman?
 3. Whilst navigating the APIs for different SAP products, you might have noticed the different states of an API, e.g. `ACTIVE`, `BETA`, `DECOMMISSIONED`, `DEPRECATED`. What is the deprecation policy of APIs published by SAP? 
 
-<!-- ## Next
+## Next
 
-Continue to 👉 [Exercise XX - ](../02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services) -->
+Continue to 👉 [Exercise 03 - Discover and import an API](../03-discover-and-import-api/README.md)
