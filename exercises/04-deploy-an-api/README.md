@@ -1,4 +1,4 @@
-# Exercise 04 - Deploy and test an API
+# Exercise 04 - Deploy an API
 
 In the previous exercise, we created an API by importing an API package that's available in the SAP Business Accelerator Hub. The API that we copied to our instance is the [Business Partner (A2X) API package](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) and in this exercise, we will check out the different parts of the API proxy we created.
 
