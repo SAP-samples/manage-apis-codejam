@@ -6,7 +6,7 @@ At the end of this exercise, you'll have successfully searched for an API listed
 
  In the Discover > APIs section of SAP Integration Suite, you'll be able to find [all the API packages that you can access via the SAP Business Accelerator Hub](https://api.sap.com/content-type/API/apis/packages). This includes API packages for SAP products, as well as API packages made available by SAP partners.
 
- In a previous exercise, we got familiar with the Business Partner API available in SAP S/4HANA Cloud. This same API can be accessed via API Management. Let's do just that.... 
+ In a previous exercise, we got familiar with the [Business Partner API](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) available in SAP S/4HANA Cloud. This same API can be accessed via API Management. Let's do just that.... 
 
 👉 We navigate to the Discover section and click on the APIs item. Search for `SAP S/4HANA Cloud` API package.
 
@@ -82,3 +82,7 @@ If you finish earlier than your fellow participants, you might like to ponder th
 1. Depending on the capabilities enabled in your SAP Integration Suite instance, there may be more items listed under the Discovery section, e.g. Integrations. Explore other items listed under this section and find more content that's available in the SAP Business Accelerator Hub.
 2. Which other artefact types can be found in an API package? Hint: there is more than just APIs... you can search for the `Connect to SAP Cloud Foundry Services` API package.
 3. Can you think of a reason why it would be better to copy an API artefact from within our instance, instead of downloading the API specification from SAP Business Accelerator Hub and manually importing the specification?
+
+## Next
+
+Continue to 👉 [Exercise 04 - Deploy an API](../04-deploy-an-api/README.md)
