@@ -15,7 +15,9 @@ It is possible to test our APIs available in SAP API Management directly from SA
 
 The API Test Console will list all APIs that are available in our SAP API Management instance. After selecting an API, e.g. `S4HC_API_BUSINESS_PARTNER`, all the resources available will be listed in the dropdown. 
 
-The top part of the console allows us to set the authentication, the HTTP method that we want to use, headers and query parameters, and a request payload (request body) that can be specified to call the API resource. 
+The top part of the console allows us to set the authentication, the HTTP method that we want to use, headers and query parameters, and a request payload (request body) that can be specified to call the API resource.
+
+> ℹ️ In the API Test Console you'll notice the `Url Params` button. Throughout the exercises, whenever query parameters are mentioned, we are refering to the parameters that we can include as Url Params.
 
 The bottom part of the console will display the response from calling our API. Here we will see if our API call was successful or not. 
 
@@ -99,7 +101,7 @@ Nice! Our response is now in JSON format.
 
 ## Summary
 
-Now that we are familiar with the API Test Console, we were able to modify our request and successfully tested our API, let's proceed to publish it so that other developers within our organization can discover it in the API Business Hub Enterprise.
+In this exercise, we got familiar with the API Test Console. We were also able to modify our request, by including HTTP headers and query parameters, and successfully tested our API. Let's proceed to publish it so that other developers within our organization can discover it in the API Business Hub Enterprise.
 
 ## Further reading
 
