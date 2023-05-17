@@ -103,6 +103,17 @@ Enter a host alias, add a notification contact (your email address) and click th
 
 For detailed steps, follow the instructions included in [step 5 - Configure the API Management Service](https://developers.sap.com/tutorials/api-mgmt-isuite-initial-setup.html#93fee77e-606e-425c-a6c3-1b6946d2ec87) of the  _Set Up API Management from Integration Suite_ tutorial. 
 
+### Assign the SAP API Management Role Collections to your user
+
+Once the capability is active, make sure you assigned the following role collections to your user:
+* *APIManagement.**
+* *APIPortal.**
+* *AuthGroup.**
+
+> For simplicity purposes, assign all the roles that match the patterns provided below
+
+Go to your SAP BTP Cockpit. Navigate to `Security > Users`, select your User and click the `Assign Role Collections` button.
+
 ### Optional - SAP Business Accelerator Hub API Key
 
 If you are going through the CodeJam content on your own or don't have access to a live system, you can use the sandbox environment available as part of the SAP Business Accelerator Hub. To communicate with the sandbox environment you will need an API key. The gif below shows you how you can get an API key from the SAP Business Accelerator Hub.
