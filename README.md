@@ -6,7 +6,7 @@
 ---
 ## *SAP CodeJam events scheduled*
 
-- 2023-06-22: 🇪🇸 SAP CodeJam BTP: Managing APIs in your landscape with SAP API Management (Madrid, Spain) - TBA.
+- 2023-06-22: 🇪🇸 SAP CodeJam BTP: Managing APIs in your landscape with SAP API Management (Madrid, Spain).
 
 ---
 
@@ -21,6 +21,20 @@ Let's imagine we work for a company, ITeLO. TBD
 ## Prerequisites
 
 The prerequisites to follow the exercises in this repository, including hardware and software, are detailed in the [prerequisites](prerequisites.md) file.
+
+### Live system
+
+As part of this CodeJam we will try to provide access to a live SAP S/4HANA Cloud instance. Whenever you see the following emoji - 🔐 - in the exercises, it means that your instructor will provide details to configure a live system. 
+
+<details>
+<summary><i>What if a live system can't be provided as part of the CodeJam or you are going through the CodeJam content on your own?</i></summary>
+<br>
+
+There are two options here:
+1. Use the sandbox environment available as part of the SAP Business Accelerator Hub. When authenticating against the service you will need to specify your API key as a header parameter in the requests.
+1. The participant can configure a live system that they have access to.
+
+</details>
 
 ## Material organization
 
