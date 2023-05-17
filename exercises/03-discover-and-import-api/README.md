@@ -41,7 +41,8 @@ Now that we've found the API that we are interested in, let's see how we can imp
 
 To import the API, we will need to Copy the artefact to our API Management instance. By copying the artefact to our instance, our instance will keep a reference of the object in SAP Business Accelerator Hub. If there is an update to this object, we will be able to easily update it from our instance.
 
-👉 Click the `Copy` button that's in the upper right corner of the screen and configure the settings with the details provided by your instructor.
+👉 Click the `Copy` button that's in the upper right corner of the screen. Set the service host and port. Also, the API details are required. 
+> 🔐 *Your instructor will provide you with the host that you can use.*
 
 ![Copy API - details](assets/copy-api-details.png)
 <p align = "center">
