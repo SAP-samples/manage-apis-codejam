@@ -4,7 +4,7 @@ This page intends to capture common problems that you might face while going thr
 
 ## API Management
 
-- #### Unable to Create application exception in Developer Portal
+- #### Unable to Create application exceptions in Developer Portal
   
   When creating an application in the Developer Portal, a pop-up is displayed stating that it was not possible to create the application.
 
