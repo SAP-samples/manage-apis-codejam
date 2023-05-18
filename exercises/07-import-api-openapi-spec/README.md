@@ -1,4 +1,4 @@
-# Exercise 08 - Import an API
+# Exercise 07 - Import an API using an OpenAPI specification
 
 So far, we've seen how we can discover, copy, deploy and publish APIs available in the SAP Business Accelerator Hub to our SAP API Management instance. It is also possible to create APIs in SAP API Management, based on OpenAPI specifications. Many products/services available to us publish their API specification and this can ease our development/integration efforts.
 
@@ -69,23 +69,30 @@ In exercise 06 we went into detail on how to publish an API. Lets repeat the pro
     <i>General Data - Product</i>
 </p>
 
+If we now visit the API Business Hub Enterprise, we will see our new product and API in it. You can test the API from here as well.
+
+<p align = "center">
+    <img alt="General Data > Public Holidays Worldwide API in API Business Hub Enterprise" src="./assets/general-data-in-abhe.gif" width="75%"/><br/>
+    <i>General Data > Public Holidays Worldwide API in API Business Hub Enterprise</i>
+</p>
 
 ## Summary
 
-Exciting! We were able to import an OpenAPI specification and created an API using it. Many services publish OpenAPI specs which can ease how we can create API in SAP API Management.
+Exciting! We were able to import an OpenAPI specification and created an API from it. Many services publish OpenAPI specs which can ease how we can create API in SAP API Management.
 
 ## Further reading
 
+* [SAP API Management - Import an API](https://help.sap.com/docs/sap-api-management/sap-api-management/import-api?locale=en-US)
 * [Nager.Date](https://date.nager.at/)
-* [Link 2](https://blogs.sap.com/)
 
 ---
 
 If you finish earlier than your fellow participants, you might like to ponder these questions. There isn't always a single correct answer and there are no prizes - they're just to give you something else to think about.
 
 1. Check out a [huge list of free APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/) that you might find useful.
-2. Second question.
+2. Apart from being able to import an OpenAPI specification, what other file type can you import? and what's included in it?
+3. There is a transport mechanism in SAP API Management... why would you export/import an API instead of using the transport mechanism available?
 
-<!-- ## Next
+## Next
 
-Continue to 👉 [Exercise XX - ](../02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services) -->
+Continue to 👉 [Exercise 08 - Add an SAP SuccessFactors Employee Central API](../08-add-ssff-employee-central-api/README.md)

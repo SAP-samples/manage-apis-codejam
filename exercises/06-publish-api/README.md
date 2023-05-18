@@ -51,7 +51,9 @@ Enter the details below:
 * Name: `S4HC`
 * Title: `SAP S/4HANA Cloud`
 
-We've entered the basic details of our Product but we are missing specifying the APIs that we want to associate to it. Let's associate the `S4HC_API_BUSINESS_PARTNER` API that we created before.
+## Associate API to Product and publish
+
+We've entered the basic details of our Product but we are missing specifying the APIs that we want to associate with it. Let's associate the `S4HC_API_BUSINESS_PARTNER` API that we created before.
 
 👉 Select the `API` tab and click the `Add` button. Select the `S4HC_API_BUSINESS_PARTNER` API. Given that it is the only change that we want to do, you can go ahead and `Publish` the product.
 
@@ -86,7 +88,7 @@ The tile in the API Business Hub Enterprise will now contain a description of th
 
 ## Summary
 
-Now that you are familiar with the basic functionality of SAP Business Accelerator Hub and the Business Partner API, we are ready to start interacting with the services from which our integration will be extracting data.
+We are now familiar with API Business Hub Enterprise and we've published our API to this portal.  We are also now familiar with the basic functions of SAP API Management, e.g. creating, saving, deploying, and publishing an API, therefore we will start moving a bit faster 🏎️ in future exercises.
 
 ## Further reading
 
@@ -102,4 +104,4 @@ If you finish earlier than your fellow participants, you might like to ponder th
 
 ## Next
 
-Continue to 👉 [Exercise 07 - ](../07-add-bank-api-to-s4hc-product) -->
+Continue to 👉 [Exercise 07 - Import an API using an OpenAPI specification](../07-import-api-openapi-spec/README.md)
