@@ -7,6 +7,10 @@
 ## *SAP CodeJam events scheduled*
 
 - 2023-06-22: 🇪🇸 SAP CodeJam BTP: Managing APIs in your landscape with SAP API Management (Madrid, Spain).
+<p align = "center">
+    <img alt="CodeJam Madrid" src="assets/art/CodeJam_Art_ManageAPIs_Madrid.png" width="85%"/><br/>
+    <i>CodeJam Madrid</i>
+</p>
 
 ---
 
