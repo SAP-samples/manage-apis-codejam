@@ -114,7 +114,7 @@ Once the capability is active, make sure you assigned the following role collect
 
 Go to your SAP BTP Cockpit. Navigate to `Security > Users`, select your User and click the `Assign Role Collections` button.
 
-### Optional - SAP Business Accelerator Hub API Key
+### SAP Business Accelerator Hub API Key
 
 If you are going through the CodeJam content on your own or don't have access to a live system, you can use the sandbox environment available as part of the SAP Business Accelerator Hub. To communicate with the sandbox environment you will need an API key. The gif below shows you how you can get an API key from the SAP Business Accelerator Hub.
 
@@ -123,6 +123,12 @@ If you are going through the CodeJam content on your own or don't have access to
 <i>Show API key in the SAP Business Accelerator Hub</i>
 </p>
 
+An alternative would be going to your profile settings and clicking the `Show Key` button in your profile.
+
+<p align = "center">
+  <img alt="Show Key button in profile settings" src="assets/profile-settings-api-key.png" width="75%"/><br/>
+  <i>Show Key button in profile settings</i>
+</p>
 
 [^1]: [Feature Scope Description for SAP Integration
 Suite](https://help.sap.com/doc/e50e61e7b66c4b60ae5e88c00c01486a/sap.cp.integration.suite/en-US/FSD_IntegrationSuite.pdf)

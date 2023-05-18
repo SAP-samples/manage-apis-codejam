@@ -17,6 +17,12 @@ This page intends to capture common problems that you might face while going thr
     </p>
   - Check SAP Note 2718466: [https://launchpad.support.sap.com/#/notes/0002718466](https://launchpad.support.sap.com/#/notes/0002718466) 
 
+- #### My API Business Hub Enterprise doesn't look the same as the one in the screenshots/animations
+  You can change the look and feel of the API Business Hub Enterprise by *"turning on"* the new design.
+  <p align = "center">
+    <img alt="Toggle - New design" src="assets/switch-new-design.gif" width="75%"/><br/>
+    <i>Toggle - New design</i>
+  </p>
 
 ## Postman
 
