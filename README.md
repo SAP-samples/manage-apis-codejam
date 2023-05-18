@@ -16,7 +16,7 @@ Welcome to the Managing APIs in your landscape with SAP API Management CodeJam r
 
 ## API Management Scenario
 
-Let's imagine we work for a company, ITeLO. TBD
+Let's imagine we work for a company, ITeLO. ITeLO is a large enterprise with offices in 50 different countries. They currently use SAP S/4HANA Cloud as their main ERP and SAP SuccessFactors to manage their employees. Also, within their organization they have multiple development teams and they want to standarise how developers discover/consume/manage the APIs exposed by the variety of systems that they have in-house. Also, how they want to simplify how their SAP data is available for others to consume.
 
 ## Prerequisites
 
