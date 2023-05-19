@@ -82,7 +82,7 @@ Fortunately, the Business Partner API is an OData API, meaning that we can use t
 <i>Add $top query parameter to request</i>
 </p>
 
-👏 🎉 Excellent! We managed to send a request to the SAP S/4HANA Cloud Business Partner API. That said, the response is in XML format and we might prefer handling a JSON payload. Let's do something more....
+👏 🎉 Excellent! We managed to send a request to the SAP S/4HANA Cloud Business Partner API. That said, the response is in XML format and we might prefer handling a JSON payload. Let's specify in our request that we want a JSON payload as a response.
 
 ### Add a header parameter
 
