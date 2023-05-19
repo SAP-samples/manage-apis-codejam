@@ -95,6 +95,6 @@ If you finish earlier than your fellow participants, you might like to ponder th
     </details>
 3. Which is the slowest API in your instance? 
 
-<!-- ## Next
+## Next
 
-Continue to 👉 [Exercise XX - ](../02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services) -->
+Continue to 👉 [Exercise 10 - Editing APIs](../10-edit-apis/README.md)
