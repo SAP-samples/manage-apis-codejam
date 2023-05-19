@@ -69,8 +69,8 @@ Unfortunately, you will get an error message like the one shown in the gif below
 
 👉 Add the parameters below to the Test Request and retry making the request
 
-- Header, key: `APIKey` , value: `[YOUR-SAP-BUSINESS-ACCELERATOR-HUB-API-KEY]`
-- Query, key: `$top` , value: `5`
+- Header, key: `APIKey`, value: `[YOUR-SAP-BUSINESS-ACCELERATOR-HUB-API-KEY]`
+- Query, key: `$top`, value: `5`
 
 <p align = "center">
     <img alt="Add header and query parameters" src="assets/blur-api-key-abhe-blur.gif" width="50%"/><br/>
@@ -81,7 +81,7 @@ Unfortunately, you will get an error message like the one shown in the gif below
 
 ## Summary
 
-Now we are very familiar with the process of discovering, importing, and deploying APIs. In this exercise, we also learnt some new functionality in the API Business Hub Enterprise and how to retrieve data from the sandbox environment available in the SAP Business Accelerator Hub. Now let's start tweaking the behaviour of our APIs.
+Now we are very familiar with the process of discovering, importing, and deploying APIs. In this exercise, we also learnt some new functionality in the API Business Hub Enterprise and how to retrieve data from the sandbox environment available in the SAP Business Accelerator Hub. Now let's see the out-of-the-box monitoring functionality that SAP API Management provides us.
 
 ## Further reading
 
@@ -98,4 +98,4 @@ If you finish earlier than your fellow participants, you might like to ponder th
 
 ## Next
 
-Continue to 👉 [Exercise 09 - Edit APIs](../09-edit-apis)
+Continue to 👉 [Exercise 09 - Monitoring APIs](../09-monitoring-apis/README.md)
