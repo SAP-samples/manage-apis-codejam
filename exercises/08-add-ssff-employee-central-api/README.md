@@ -1,4 +1,4 @@
-# Exercise 07 - Add an SAP SuccessFactors Employee Central API
+# Exercise 08 - Add an SAP SuccessFactors Employee Central API
 
 Now that we are familiar with the basic functions of creating, saving, deploying, and publishing an API, we will start moving a bit faster 🏎️. In this exercise, we will reinforce what we've learned in exercises 02-06 and import the [Personal Information API](https://api.sap.com/api/ECPersonalInformation/overview) that's part of [SAP SuccessFactors Employee Central](https://api.sap.com/package/SuccessFactorsEmployeeCentral/all).
 

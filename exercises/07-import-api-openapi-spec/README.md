@@ -58,7 +58,7 @@ Once you set the values above, [deploy](../04-deploy-an-api/README.md#deploy-an-
 
 > If you try testing any resources before deploying the API, you will get an authentication error in the response. Deploy the API first and then retry.
 
-## Publish the API in the API Business Hub Enterprise
+## Exercise 07 - Publish the API in the API Business Hub Enterprise
 
 In exercise 06 we went into detail on how to publish an API. Lets repeat the process here.
 
