@@ -1,4 +1,4 @@
-# Exercise 09 - Monitoring API
+# Exercise 09 - Monitoring APIs
 
 We've sent a few requests to the APIs published in SAP API Management, some of them have failed, and some of them have been successful. Fortunately, SAP API Management provides a single place where we can monitor the API calls made to our instance. We will be exploring this in this exercise. 
 
@@ -97,4 +97,4 @@ If you finish earlier than your fellow participants, you might like to ponder th
 
 ## Next
 
-Continue to 👉 [Exercise 10 - Editing APIs](../10-edit-apis/README.md)
+Continue to 👉 [Exercise 10 - API policies](../10-api-policies/README.md)
