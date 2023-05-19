@@ -133,7 +133,7 @@ As our API is available via the API Business Hub Enterprise, we want developers 
 
 > Detailed step by step screenshots on how to add the Verify API Key policy can be found from step 10 - step 13 of this [tutorial](https://developers.sap.com/tutorials/hcp-apim-verify-api.html#b9f8a3d2-554e-482a-a8d1-b8af157da3dd).
 
-The `Request_Employee_Dependants_v1` API was once again deployed. What will happen if we send a request to our API now? You can test this using the `api-management > After Verify API Key policy` request included in the Postman collection. 
+The `Request_Employee_Dependants_v1` API was once again deployed. What will happen if we send a request to our API now? You can test this using the `cloud-integration > After Verify API Key policy` request included in the Postman collection. 
 
 Do you get an authentication error? That's good. It means that our policy is working. Now let's get an application key that we can use to authenticate against the API.
 
