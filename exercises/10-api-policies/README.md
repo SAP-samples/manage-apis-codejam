@@ -16,7 +16,10 @@ There are several API security best practices that are provided to us in the for
 
 👉 Take some time and navigate to the SAP Business Accelerator Hub and check out the available Policy Templates - https://api.sap.com/content-type/API/apis/policytemplate.
 
-//TODO: Screenshot of the website above
+<p align = "center">
+    <img alt="Policy Templates in SAP Business Accelerator Hub" src="assets/policy-templates.png" width="75%"/><br/>
+    <i>Policy Templates in SAP Business Accelerator Hub</i>
+</p>
 
 
 ## Import Policy Template
@@ -25,11 +28,19 @@ In exercise 09, we highlighted that anonymous users are making our API calls. In
 
 In your exploration a minute ago, you might have noticed that there are two policy templates that deal with verifying an API key ([Verify APIKey by Header](https://api.sap.com/policytemplate/Verify_APIKey_ByHeader) and a [Verify APIKey by QueryParam](https://api.sap.com/policytemplate/Verify_APIKey_ByQueryParam)). Let's import the Verify APIKey by Header policy template to our SAP API Management instance.
 
-👉 In SAP Integration Suite, navigate to Discover > APIs and search for `SAP API Management Security Best Practices`. In the artefacts tab, you'll find the Verify APIKey policy template. Copy the `Verify APIKey By Header` policy template.
+👉 In SAP Integration Suite, navigate to `Discover > APIs` and search for `SAP API Management Security Best Practices`. In the artefacts tab, you'll find the Verify APIKey policy template. Copy the `Verify APIKey By Header` policy template.
 
-//TODO: Capture GIF of the step above
+<p align = "center">
+    <img alt="Copy policy template to SAP API Management instance" src="assets/copy-policy-template.gif" width="75%"/><br/>
+    <i>Copy policy template to SAP API Management instance</i>
+</p>
 
 Once copied to our SAP API Management instance, you can find the policy template in the `Design > APIs` view under the `Policy Templates` tab.
+
+<p align = "center">
+    <img alt="Policy templates in Design > APIs" src="assets/design-policy-templates.png" width="75%"/><br/>
+    <i>Policy templates in SAP API Management instance</i>
+</p>
 
 ## Apply Policy Template
 
@@ -37,15 +48,28 @@ Now that we have the policy template in our SAP API Management instance, we can 
 
 👉 Navigate to the `PublicHolidays_Nager_Date_API` API and click the Policies button.
 
-//TODO: Capture GIF of the step above
+<p align = "center">
+    <img alt="Access Policy Editor" src="assets/access-policy-editor.gif" width="75%"/><br/>
+    <i>Access Policy Editor</i>
+</p>
 
 The policy editor will open, and you'll see that there are no policies applied to the API. So, let's add the `Verify APIKey By Header` policy template to the API.
 
 👉 Click the `Edit` button to enter edit mode and apply the `Verify APIKey By Header` policy to the API.
 
+<p align = "center">
+    <img alt="Apply Verify APIKey By Header policy template" src="assets/apply-policy-template.gif" width="75%"/><br/>
+    <i>Apply policy template</i>
+</p>
+
 ⏱️ Take some time and familiarise yourself with the code included in the policy. This will also be an excellent time to check documentation for the Verify API Key policy type to understand what the policy does and how it works - https://help.sap.com/docs/sap-api-management/sap-api-management/verify-api-key.
 
-👉 Now that we have applied the policy to the API, let's click the Update button to update the policies of the API, followed by the Save button to save the changes in the API, and we can deploy the API, so that the changes are applied to the API.
+👉 Now that we have applied the policy to the API, let's click the `Update` button to update the policies of the API in the Policy Editor, followed by the Save button to save the changes in the API, and we can deploy the API, so that the changes are applied to the API.
+
+<p align = "center">
+    <img alt="Update policies and deploy API" src="assets/update-and-deploy-api.gif" width="75%"/><br/>
+    <i>Update policies and deploy API</i>
+</p>
 
 ## Testing our API with a policy
 
@@ -53,19 +77,23 @@ Excellent, we are ready to call our API. Let's try to call the API without an AP
 
 👉 Navigate to the API Test Console (`Test > APIs`) and try calling any resource of the `PublicHolidays_Nager_Date_API` API. 
 
+<p align = "center">
+    <img alt="Testing the Verify API Key policy" src="assets/error-api-key-missing.png" width="50%"/><br/>
+    <i>Testing the Verify API Key policy</i>
+</p>
 
-You are getting 
-> Can you think of what can we do now to get an API key so that we can successfully call the API?
+Success!!!! You are getting an HTTP 401 error! Meaning that we've applied a policy to our API correctly and now an API key is required in our request for the API call to be accepted.
 
+> 🧐 Can you think of what can we do now to get an API key so that we can successfully call the API?
 
 ## Summary
 
-Now that you are familiar with the basic functionality of policies in SAP API Management, we are ready to include some additional functionality to some of the APIs we deployed/published in previous exercises.
+Now that you are familiar with the basic functionality of policies in SAP API Management, we are ready to include some additional functionality to some of the APIs we deployed/published in previous exercises. Also, we need to figure out how we can successfully call the API by specifying an API key.
 
 ## Further reading
 
 * [Policy Types available in SAP API Management](https://help.sap.com/docs/sap-api-management/sap-api-management/policy-types?locale=en-US)
-* [Link 2](https://blogs.sap.com/)
+* [Consume APIs > Create an Application](https://help.sap.com/docs/sap-api-management/sap-api-management/creating-application-with-application-developer-role-new-design?locale=en-US)
 
 ---
 
