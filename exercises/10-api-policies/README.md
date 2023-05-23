@@ -35,6 +35,8 @@ In your exploration a minute ago, you might have noticed that there are two poli
     <i>Copy policy template to SAP API Management instance</i>
 </p>
 
+> The SAP API Management policy template is a collection of policies or behaviors that can be reused across API Proxies which can help us securing our API Proxies.
+
 Once copied to our SAP API Management instance, you can find the policy template in the `Design > APIs` view under the `Policy Templates` tab.
 
 <p align = "center">
@@ -92,6 +94,7 @@ Now that you are familiar with the basic functionality of policies in SAP API Ma
 
 ## Further reading
 
+* [SAP API Management Security Best Practices](https://blogs.sap.com/2017/08/22/sap-cloud-platform-api-management-api-security-best-practices/)
 * [Policy Types available in SAP API Management](https://help.sap.com/docs/sap-api-management/sap-api-management/policy-types?locale=en-US)
 * [Consume APIs > Create an Application](https://help.sap.com/docs/sap-api-management/sap-api-management/creating-application-with-application-developer-role-new-design?locale=en-US)
 
