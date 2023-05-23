@@ -28,7 +28,7 @@ In `My Workspace` we can manage our applications. There are also some analytics 
 
 > In case you are unable to create an application in the API Business Hub Enterprise, check out the solution in the [troubleshooting page](../../troubleshooting.md#unable-to-create-application-exceptions-in-developer-portal).
 
-Excellent, we've create an application and the `Application Key` is what we need to call our API.
+Excellent, we've created an application and the `Application Key` is what we need to call our API.
 
 👉 Copy the value in the Application Key field.
 
