@@ -9,11 +9,11 @@ This page intends to capture common problems that you might face while going thr
   When creating an application in the Developer Portal, a pop-up is displayed stating that it was not possible to create the application.
 
   There are two potential solutions to the problem:
-  - If you are the only user, make sure you register as a Developer. Go to Manage > Manage Users > Registered Users and add your account details. Select the Developer, Administrator and Content Admin roles.
+  - If you are the only user, make sure you register as a Developer. Go to `Enterprise Manager > Manage - Users > Registered Users` and add your account details. Select the Developer, Administrator and Content Admin roles.
   
-    ![Add user in API Management](assets/add-user-api-management.png)
+    ![Add user in API Business Hub Enterprise](assets/add-registered-user.png)
     <p align = "center">
-    <i>Add user in API Management</i>
+    <i>Add user in API Business Hub Enterprise</i>
     </p>
   - Check SAP Note 2718466: [https://launchpad.support.sap.com/#/notes/0002718466](https://launchpad.support.sap.com/#/notes/0002718466) 
 
