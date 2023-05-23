@@ -97,6 +97,7 @@ Now that you are familiar with the basic functionality of policies in SAP API Ma
 * [SAP API Management Security Best Practices](https://blogs.sap.com/2017/08/22/sap-cloud-platform-api-management-api-security-best-practices/)
 * [Policy Types available in SAP API Management](https://help.sap.com/docs/sap-api-management/sap-api-management/policy-types?locale=en-US)
 * [Consume APIs > Create an Application](https://help.sap.com/docs/sap-api-management/sap-api-management/creating-application-with-application-developer-role-new-design?locale=en-US)
+* [Optional Exercise 02 - API Security Best Practices](../optional-02-security-best-practices/README.md)
 
 ---
 
