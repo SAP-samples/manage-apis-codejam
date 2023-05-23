@@ -114,6 +114,26 @@ Once the capability is active, make sure you assigned the following role collect
 
 Go to your SAP BTP Cockpit. Navigate to `Security > Users`, select your User and click the `Assign Role Collections` button.
 
+### Register as a developer in the API Business Hub Enterprise
+
+Once you've set up SAP API Management, you can access the API Business Hub Enterprise from the SAP Integration Suite home page. 
+
+Navigate to the API Business Hub Enterprise
+
+<p align = "center">
+<img alt="Link to API Business Hub Enterprise" src="assets/link-to-api-business-hub-enterprise.gif" width="75%"/><br/>
+<i>Link to API Business Hub Enterprise</i>
+</p>
+
+Hover over the `Enterprise Manager` item in the navigation bar and select `Manage - Users`. Go to the `Registered Users` tab and click the `Add User` button. Enter your user details, assign the required roles and click the `Add` button.
+
+<p align = "center">
+  <img alt="Add user to Registered Users" src="assets/add-registered-user.png" width="75%"/><br/>
+  <i>Add user to Registered Users</i>
+</p>
+
+If everything went fine, you've successfully registered your user as a registered user of the API Business Hub Enterprise.
+
 ### SAP Business Accelerator Hub API Key
 
 If you are going through the CodeJam content on your own or don't have access to a live system, you can use the sandbox environment available as part of the SAP Business Accelerator Hub. To communicate with the sandbox environment you will need an API key. The gif below shows you how you can get an API key from the SAP Business Accelerator Hub.
