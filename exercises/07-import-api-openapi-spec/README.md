@@ -23,7 +23,7 @@ Nager.Date makes its data available via an [API](https://date.nager.at/Api). If 
 
 > The OpenAPI specification for Nager.Date's API is also included in the assets folder of this exercise: [./assets/date.nager.at-openapi.json](./assets/date.nager.at-openapi.json)
 
-👉 Take some time to visit the [Nager.Date's API documentation](https://date.nager.at/swagger/index.html), get familiar with the resources available and try sending some requests.
+🧭 Take some time to visit the [Nager.Date's API documentation](https://date.nager.at/swagger/index.html), get familiar with the resources available and try sending some requests.
 
 <p align = "center">
     <img alt="Exploring Nager.Date API" src="assets/exploring-nager.date-api.gif" width="75%"/><br/>
