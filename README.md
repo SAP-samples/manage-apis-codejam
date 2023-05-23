@@ -66,6 +66,7 @@ See below for an overview of the exercises part of this CodeJam.
     * [Exercise 08 - Add an SAP SuccessFactors Employee Central API](./exercises/08-add-ssff-employee-central-api/README.md)
     * [Exercise 09 - Monitoring APIs](./exercises/09-monitoring-apis/README.md)
     * [Exercise 10 - API policies](./exercises/10-api-policies/README.md)
+    * [Exercise 11 - Consume protected APIs by creating an application](./exercises/11-consume-applications/README.md)
     * [Optional Exercise 01 - Expose integration flow via API Management](./exercises/optional-01-expose-integration-flow-api-management/README.md)
 ### Troubleshooting
 
