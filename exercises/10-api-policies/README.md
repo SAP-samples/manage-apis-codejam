@@ -12,9 +12,9 @@ A policy can be applied to the request or response of an API call. For example, 
 
 ## Policy Templates
 
-There are several API security best practices that are provided to us in the form of policy templates. These policy templates are pre-configured policies that we can import into our SAP API Management instance and apply to our APIs.
+Several API security best practices are provided to us in the form of policy templates. These policy templates are pre-configured policies that we can import into our SAP API Management instance and apply to our APIs.
 
-👉 Take some time and navigate to the SAP Business Accelerator Hub and check out the available Policy Templates - https://api.sap.com/content-type/API/apis/policytemplate.
+🧭 Take some time and navigate to the SAP Business Accelerator Hub and explore the available Policy Templates - https://api.sap.com/content-type/API/apis/policytemplate.
 
 <p align = "center">
     <img alt="Policy Templates in SAP Business Accelerator Hub" src="assets/policy-templates.png" width="75%"/><br/>
@@ -62,7 +62,7 @@ The policy editor will open, and you'll see that there are no policies applied t
     <i>Apply policy template</i>
 </p>
 
-⏱️ Take some time and familiarise yourself with the code included in the policy. This will also be an excellent time to check documentation for the Verify API Key policy type to understand what the policy does and how it works - https://help.sap.com/docs/sap-api-management/sap-api-management/verify-api-key.
+⏱️ Take some time and familiarise yourself with the code included in the policy. This will also be an excellent time to check the documentation for the Verify API Key policy type to understand what the policy does and how it works - https://help.sap.com/docs/sap-api-management/sap-api-management/verify-api-key.
 
 👉 Now that we have applied the policy to the API, let's click the `Update` button to update the policies of the API in the Policy Editor, followed by the Save button to save the changes in the API, and we can deploy the API, so that the changes are applied to the API.
 
@@ -99,13 +99,13 @@ Now that you are familiar with the basic functionality of policies in SAP API Ma
 
 If you finish earlier than your fellow participants, you might like to ponder these questions. There isn't always a single correct answer and there are no prizes - they're just to give you something else to think about.
 1. Can you imagine why you would prefer to pass an API key as a header instead of a query parameter?
-2. If you are communicating with the SAP Business Accelerator Hub sandbox environment, you need to specify an API key (AK1).... now this API key will be different than the one you need to communicate with the API proxy exposed via SAP API Management (AK2). Why is that? and how can you set the API key required by the sandbox environment (AK1) to communicate with it via SAP API Management but still add the Verify API Key functionality in SAP API?
+2. If you are communicating with the SAP Business Accelerator Hub sandbox environment, you need to specify an API key (AK1).... now this API key will be different from the one you need to communicate with the API proxy exposed via SAP API Management (AK2). Why is that? and how can you set the API key required by the sandbox environment (AK1) to communicate with it via SAP API Management but still add the Verify API Key functionality in SAP API?
     <details>
     <summary>Hint 🔦</summary>
 
     <i>Check out the <b>Assign Message</b> policy type. This policy allows you to create new or modify an existing HTTP request or response message, see [documentation](https://help.sap.com/docs/sap-api-management/sap-api-management/assign-message).</i>
     </details>
 
-<!-- ## Next
+## Next
 
-Continue to 👉 [Exercise XX - ](../02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services) -->
+Continue to 👉 [Exercise 11 - Consume protected APIs by creating an application](../11-consume-applications/README.md) -->
