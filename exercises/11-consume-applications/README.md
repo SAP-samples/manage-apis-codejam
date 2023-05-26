@@ -68,9 +68,14 @@ We've learnt more about the functionality that's available in the API Business H
 
 If you finish earlier than your fellow participants, you might like to ponder these questions. There isn't always a single correct answer and there are no prizes - they're just to give you something else to think about.
 
-1. Explore the Cost, Performance Analytics and Error Analytics tabs that are available in My Workspace. You've made a couple of API calls, you should be able to see some information here.
-2. Can you think of a way we can force an error in the `Public Holidays Worldwide` API so that we can see some data in the `Error Analytics` tab?
+1. What happens if we specify an invalid API key when we make our call?
+    <details>
+    <summary>🔦 Hint</summary>
+    <i>Try sending a request with `ABCDEF` as the API key and check the HTTP response status code.</i>
+    </details>
+2. Explore the Cost, Performance Analytics and Error Analytics tabs that are available in My Workspace. You've made a couple of API calls, you should be able to see some information here.
+3. Can you think of a way we can force an error in the `Public Holidays Worldwide` API so that we can see some data in the `Error Analytics` tab?
 
-<!-- ## Next
+## Next
 
-Continue to 👉 [Exercise XX - ](../02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services) -->
+Continue to 👉 [Exercise 12 - Protecting our APIs](../12-protecting-apis/README.md)
