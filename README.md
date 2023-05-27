@@ -69,6 +69,8 @@ See below for an overview of the exercises part of this CodeJam.
     * [Exercise 09 - Monitoring APIs](./exercises/09-monitoring-apis/README.md)
     * [Exercise 10 - API policies](./exercises/10-api-policies/README.md)
     * [Exercise 11 - Consume protected APIs by creating an application](./exercises/11-consume-applications/README.md)
+    * [Exercise 12 - Protecting our APIs](./exercises/12-protecting-apis/README.md)
+    * [Exercise 13 - Editing APIs using the API Designer](./exercises/13-api-designer/README.md)
     * [Optional Exercise 01 - Expose integration flow via API Management](./exercises/optional-01-expose-integration-flow-api-management/README.md)
     * [Optional Exercise 02 - API Security Best Practices](./exercises/optional-02-security-best-practices/README.md)
 ### Troubleshooting
