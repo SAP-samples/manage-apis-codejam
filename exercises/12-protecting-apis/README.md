@@ -21,9 +21,9 @@ At the moment we are unable to identify the developer that's calling the API pro
 
 ## Create a new application
 
-In the previous exercise we learned how to create an application in the API Business Hub Enterprise. Let's go ahead and create a separate application that will only have access to our SAP S/4HANA Cloud product.
+In the previous exercise, we learned how to create an application in the API Business Hub Enterprise. Let's go ahead and create a separate application that will only have access to our SAP S/4HANA Cloud product.
 
-👉 Navigate to your `workspace` in the `API Business Hub Enterprise`. Create new application named `S4HC test` and assign the `SAP S/4HANA Cloud` product. 
+👉 Navigate to your `workspace` in the `API Business Hub Enterprise`. Create a new application named `S4HC test` and assign the `SAP S/4HANA Cloud` product. 
 
 <p align = "center">
     <img alt="S4HC application with product associated" src="assets/s4hc-application.gif" width="75%"/><br/>
@@ -64,7 +64,14 @@ Now that we can identify who is calling our API, we can proceed to add some addi
 
 The Spike Arrest policy limits the number of requests forwarded to the target system. Using this policy we can specify the number of requests that can be sent in an interval of time, e.g. we can limit the number of calls that can be made in a minute. Let's say we want to allow 12 calls per minute, this would mean that the caller can only make a call every 5 seconds - (12 calls / 1 minute -> 60 seconds = 1 call every 5 seconds).
 
-// TODO: Add video adding the policy
+👉 Navigate to the policy editor of the `S4HC_API_BUSINESS_PARTNER` API and add a Spike Arrest policy in the `Proxy Endpoint > PreFlow`, after the `checkAPIKey` policy that's already in place. 
+
+Ensure the value in the `Identifier` ref matches the `Identifier` set for the API key, e.g. `request.header.apim-apikey`. Also, in the example, we can see the Rate set is 12 calls per minute, `12pm`, a call every 5 seconds.
+
+<p align = "center">
+    <img alt="Including Spike Arrest policy" src="assets/add-spike-arrest-policy.gif" width="85%"/><br/>
+    <i>Including Spike Arrest policy</i>
+</p>
 
 Below you can find the contents of the policy set in the animation above.
 
@@ -79,7 +86,13 @@ Below you can find the contents of the policy set in the animation above.
 </SpikeArrest>
 ```
 
+👉 Update the policy and deploy the API to activate the changes.
 
+## Test the Spike Arrest policy
+
+Now that we've re-deployed the API, we are ready to test the Spike Arrest policy. This is a simple test, just try sending multiple requests to the API in a short period and the policy will kick in.
+
+👉 Navigate to the API Test Console, select the `S4HC_API_BUSINESS_PARTNER` API and send a few requests fast so that we can see the Spike Arrest exception being raised.
 
 <p align = "center">
     <img alt="Multiple calls - Spike arrest exception raised" src="assets/multiple-call-spike-arrest.gif" width="75%"/><br/>
@@ -90,7 +103,7 @@ Below you can find the contents of the policy set in the animation above.
 
 ## Summary
 
-We should now have a better understanding of API policies and be comfortable applying some basic security on our API proxies. 
+We should now have a better understanding of API policies and be comfortable applying some basic security on our API proxies. We've learnt about the Spike Arrest policy and how it can protect our backend systems from receiving too many concurrent/simultaneous calls from a single application/developer and prevent a potential performance impact in the system.
 
 ## Further reading
 
@@ -106,6 +119,6 @@ If you finish earlier than your fellow participants, you might like to ponder th
 3. Let's imagine you've applied the quota policy to an API. You might have noticed that we can specify a quota for a product in the Product Overview tab (`Design > APIs > Products` tab - select any Product). Which of these quotas takes precedence?
 4. Can you think of other policies, which you can apply to your APIs, and can ease the load of the server? 
 
-<!-- ## Next
+## Next
 
-Continue to 👉 [Exercise XX - ](../02-exploring-the-mock-services/README.md#exercise-02---exploring-the-mock-services) -->
+Continue to 👉 [Exercise 13 - Editing APIs using the API Designer](../13-api-designer/README.md)
