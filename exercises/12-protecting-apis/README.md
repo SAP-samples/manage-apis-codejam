@@ -114,11 +114,11 @@ We should now have a better understanding of API policies and be comfortable app
 
 If you finish earlier than your fellow participants, you might like to ponder these questions. There isn't always a single correct answer and there are no prizes - they're just to give you something else to think about.
 
-1. In which scenario will it make sense granting a single application access to multiple products? 
+1. In which scenario will it make sense to grant an application access to multiple products? 
 2. The spike arrest policy and the quota policy are similar but there is an important difference between them. What is it?
 3. Let's imagine you've applied the quota policy to an API. You might have noticed that we can specify a quota for a product in the Product Overview tab (`Design > APIs > Products` tab - select any Product). Which of these quotas takes precedence?
 4. Can you think of other policies, which you can apply to your APIs, and can ease the load of the server? 
 
 ## Next
 
-Continue to 👉 [Exercise 13 - Editing APIs using the API Designer](../13-api-designer/README.md)
+Continue to 👉 [Exercise 13 - Editing API paths, operations, and documentation](../13-api-designer/README.md)
