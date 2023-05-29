@@ -32,16 +32,23 @@ The OpenAPI specification is an industry-standard, it is widely adopted by diffe
 The OpenAPI spec can be in JSON or YAML format. To get familiar with the content of an OpenAPI spec document, let’s look at the OpenAPI spec of an API available in the Business Accelerator Hub. If you download the JSON file listed within a product API, e.g. SAP S/4HANA Cloud – [Business Partner API (A2X)](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) (API resources > API specification > JSON), and inspect it. You’ll notice a structure like the one in the screenshots below.
 
 In the OpenAPI spec, there are only 3 required sections – openapi, info, and paths:
+
+<p align = "center">
+    <img alt="OpenAPI specification document - headers" src="./assets/open-api-spec-headers.png" width="90%"/><br/>
+    <i>OpenAPI specification document - headers</i>
+</p>
+
 - openapi: We can see that the spec below follows the OpenAPI spec version 3.0.0.
 - info: Includes some metadata of the API.
-- paths: This section tells us all the available paths and operations (GET, PUT, POST, DELETE, etc.) for the API.
+- paths: This section tells us all the available paths.
 
     <p align = "center">
-        <img alt="OpenAPI specification headers" src="assets/open-api-spec-headers.png" width="90%"/><br/>
-        <i>OpenAPI specification headers</i>
+        <img alt="OpenAPI specification paths" src="./assets/open-api-spec-paths.png" width="90%"/><br/>
+        <i>OpenAPI specification paths</i>
     </p>
 
     Specification extensions: All the x- fields, e.g. x-sap-api-type, x-sap-shortText, x-sap-api-deprecated, that are included in the image above are extension fields. In this case, they are there to document additional information for the different types of APIs that SAP products expose. The SAP Business Accelerator Hub process these specification extensions to better reflect the APIs in the UI.
+- operations: A path can have multiple operations (GET, PUT, POST, DELETE, etc.) for the API. You can think of operations as the HTTP methods allowed for a path.
 
 All other sections in the spec, e.g. components, externalDocs, security, servers, tags are optional. In the screenshots, we can see that these have been specified for the API but they might not be included, e.g. if there is no server information or no security in the API. Let’s explore these optional sections:
 
@@ -50,11 +57,6 @@ All other sections in the spec, e.g. components, externalDocs, security, servers
 - security: Security mechanism supported by the API, e.g. Basic authentication, OAuth 2.0.
 - servers: Connectivity information for the server(s) where the API is available.
 - tags: Additional metadata can be provided in this section.
-
-    <p align = "center">
-        <img alt="OpenAPI specification document - paths" src="assets/open-api-spec-paths.png" width="90%"/><br/>
-        <i>OpenAPI specification document - paths</i>
-    </p>
 
 Also, it is important to highlight that the OpenAPI specification has been adopted in different SAP products:
 - Cloud Application Programming model:
@@ -75,13 +77,15 @@ We've learnt about OpenAPI specifications, the different parts that compose a sp
 ## Further reading
 
 * [OpenAPIs in the SAP ecosystem](https://blogs.sap.com/2022/10/10/openapis-in-the-sap-ecosystem/)
+* [OpenAPI.tools](https://openapi.tools/)
 * [Additional Attributes in OpenAPI Specification](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/35f357c811f546c5ae3451df42f61ea0.html?locale=en-US)
 
 ---
 
 If you finish earlier than your fellow participants, you might like to ponder these questions. There isn't always a single correct answer and there are no prizes - they're just to give you something else to think about.
 
-1. 
+1. Take some time and get familiar with some of the tools available in the OpenAPI ecosystem - https://openapi.tools/
+2. Can you think of how can you generate an OpenAPI specification from something like a Postman collection?
 
 ## Next
 
