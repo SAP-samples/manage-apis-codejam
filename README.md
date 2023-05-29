@@ -22,7 +22,7 @@ Welcome to the Managing APIs in your landscape with SAP API Management CodeJam r
 
 Let's imagine we work for a company, ITeLO. ITeLO is a large enterprise with offices in 50 different countries. They currently use SAP S/4HANA Cloud as their main ERP and SAP SuccessFactors to manage their employees. Also, within their organization they have multiple development teams and they want to standarise how developers discover/consume/manage the APIs exposed by the variety of systems that they have in-house and external APIs that are consumed by their internal systems.
 
-Our task is to make accessible and organise the APIs from/consumed by the different systems/services in our landscape. 
+Our task is to make accessible and organise the APIs from/consumed by the different systems/services in our landscape. Also, we want to control/limit the number of paths/operations exposed for certain APIs, e.g. the SAP S/4HANA Cloud Business Partner API. 
 
 ## Prerequisites
 
@@ -70,9 +70,10 @@ See below for an overview of the exercises part of this CodeJam.
     * [Exercise 10 - API policies](./exercises/10-api-policies/README.md)
     * [Exercise 11 - Consume protected APIs by creating an application](./exercises/11-consume-applications/README.md)
     * [Exercise 12 - Protecting our APIs](./exercises/12-protecting-apis/README.md)
-    * [Exercise 13 - Editing APIs using the API Designer](./exercises/13-api-designer/README.md)
+    * [Exercise 13 - Editing API paths, operations, and documentation](./exercises/13-api-designer/README.md)
     * [Optional Exercise 01 - Expose integration flow via API Management](./exercises/optional-01-expose-integration-flow-api-management/README.md)
     * [Optional Exercise 02 - API Security Best Practices](./exercises/optional-02-security-best-practices/README.md)
+  
 ### Troubleshooting
 
 While going through the exercises, you might encounter common problems not explicitly related to them. Check out the [troubleshooting.md](troubleshooting.md) page, which includes a list of these common problems and their potential solutions.
