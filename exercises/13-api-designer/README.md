@@ -6,7 +6,9 @@ At the end of this exercise, you'll be familiar with the API Designer available 
 
 ## Editing the YAML document using the API Designer
 
-The API designer editor enables us to do the following:
+As mentioned in the API Management scenario, there are scenarios where we wouldn't want to expose the entire API and we want to control/limit the number of paths/operations exposed for them. In our case, we want to only expose the `/A_BusinessPartner`, `/A_Customer` and `/A_Supplier` paths available in the `S4HC_API_BUSINESS_PARTNER`. Also, we don't want to expose the PATCH operations available for these APIs, only GET and POST operations.
+
+SAP API Management includes an API Designer through which we can modify the OpenAPI specification of our API proxies. The API designer editor enables us to do the following:
 - Import existing OpenAPIs
 - Download APIs
 - Generate equivalent HTML output views
@@ -15,11 +17,16 @@ The API designer editor enables us to do the following:
 
 > The API designer supports OpenAPI specification 2.0 and OAS 3.0 versions.
 
-As mentioned in the API Management scenario, there are scenarios where we wouldn't want to expose the entire API and we want to control/limit the number of paths/operations exposed for them. In our case, we want to only expose the `/A_BusinessPartner`, `/A_Customer` and `/A_Supplier` paths available in the `S4HC_API_BUSINESS_PARTNER`. Also, we don't want to expose the PATCH operations available for these APIs, only GET and POST operations.
-
 👉 Go to the `S4HC_API_BUSINESS_PARTNER` API and select `Edit in API Designer` from the `Edit` menu.
 
-Given the large size of the Business Partner Open API specification, it takes some time for the changes to be reflected in the UI. This is because whenever we change something, the UI on the left needs to render again all the paths and operations available. Unfortunately, we gotta be a bit patient here 😮‍💨.
+On the left-hand side of the screen, you will see all the resources (paths/operations) available in our API and on the right-hand side the OpenAPI specification document. If we do any changes directly in the document, this will be reflected on the left-hand side of the screen.
+
+<p align = "center">
+    <img alt="API Designer" src="assets/api-designer.png" width="85%"/><br/>
+    <i>API Designer</i>
+</p>
+
+> Given the large size of the Business Partner Open API specification, it takes some time for the changes to be reflected in the UI. This is because whenever we change something, the UI on the left needs to render again all the paths and operations available. Unfortunately, we gotta be a bit patient here 😮‍💨.
 
 We could manually start removing the paths and operations using the UI. That said, it might be easier to do this externally to avoid re-rending the UI every time we make a change.
 
@@ -27,7 +34,10 @@ We could manually start removing the paths and operations using the UI. That sai
 
 👉 Copy the contents of the `API_BUSINESS_PARTNER_BusinessPartner_Customer_Supplier.yaml` file in the assets folder of this exercise and replace the content (YAML - Yet Another Markup Language) in the editor.
 
-// TODO: Show copy and paste
+<p align = "center">
+    <img alt="Copy and paste the contents of API_BUSINESS_PARTNER_BusinessPartner_Customer_Supplier.yaml" src="assets/copy-paste-openapi-specification.gif" width="85%"/><br/>
+    <i>Copy and paste the contents of API_BUSINESS_PARTNER_BusinessPartner_Customer_Supplier.yaml</i>
+</p>
 
 The new version only includes the following paths: `/A_BusinessPartner`, `/A_Customer`, `/A_Supplier`. Meaning that we are done with the first task mentioned at the beginning of the exercise. Now, we are just missing removing the PATCH operations exposed for some paths. To remove these operations, we can easily navigate to where they are in the YAML document by clicking the little return icon ⏎ that appears when hovering over the PATCH operations for each path.
 
