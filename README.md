@@ -12,15 +12,25 @@
 
 ---
 
-Welcome to the Managing APIs in your landscape with SAP API Management CodeJam repository. In this SAP CodeJam, we will look at SAP API Management part of the SAP Integration Suite and how we can use it to manage the different APIs exposed by our systems and services. By the end of the CodeJam, we will achieve an API Management scenario like the one below in the diagram.
-
-<!-- [Final data flow](assets/diagrams/final_data_flow.png) -->
+Welcome to the Managing APIs in your landscape with SAP API Management CodeJam repository. In this SAP CodeJam, we will look at SAP API Management part of the SAP Integration Suite and how we can use it to manage the different APIs exposed by our systems and services.
 
 ## API Management Scenario
 
-Let's imagine we work for a company, ITeLO. ITeLO is a large enterprise with offices in 50 different countries. They currently use SAP S/4HANA Cloud as their main ERP and SAP SuccessFactors to manage their employees. Also, within their organization they have multiple development teams and they want to standarise how developers discover/consume/manage the APIs exposed by the variety of systems that they have in-house and external APIs that are consumed by their internal systems.
+<p align = "center">
+    <img alt="Current data flow - without SAP API Management" src="assets/diagrams/without-apim-data-flow.png" width="50%"/><br/>
+    <i>As is - Current data flow without SAP API Management</i>
+</p>
 
-Our task is to make accessible and organise the APIs from/consumed by the different systems/services in our landscape. Also, we want to control/limit the number of paths/operations exposed for certain APIs, e.g. the SAP S/4HANA Cloud Business Partner API. 
+We work for a company, ITeLO. ITeLO is a large enterprise with offices in 50 different countries. They currently use SAP S/4HANA Cloud as their main ERP and SAP SuccessFactors to manage their employees. Also, within their organization they have multiple development teams and they want to standarise how developers discover/consume/manage the APIs exposed by the variety of systems that they have in-house and external APIs that are consumed by their internal systems. 
+
+Our task is to make accessible and organise the APIs from/consumed by the different systems/services in our landscape. Also, we want to control/limit the number of paths/operations exposed for certain APIs, e.g. the SAP S/4HANA Cloud Business Partner API.
+
+By the end of the CodeJam, we will achieve an API Management scenario like the one below in the diagram.
+
+<p align = "center">
+    <img alt="Managing our APIs with SAP API Management" src="assets/diagrams/final-data-flow.png" width="80%"/><br/>
+    <i>To be - Managing our APIs with SAP API Management</i>
+</p>
 
 ## Prerequisites
 
