@@ -28,7 +28,7 @@ Our task is to make accessible and organise the APIs from/consumed by the differ
 By the end of the CodeJam, we will achieve an API Management scenario like the one below in the diagram.
 
 <p align = "center">
-    <img alt="Managing our APIs with SAP API Management" src="assets/diagrams/final-data-flow.png" width="80%"/><br/>
+    <img alt="Managing our APIs with SAP API Management" src="assets/diagrams/exercise-14.png" width="80%"/><br/>
     <i>To be - Managing our APIs with SAP API Management</i>
 </p>
 

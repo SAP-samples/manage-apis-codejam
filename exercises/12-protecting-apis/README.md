@@ -4,6 +4,11 @@ Our main business system (SAP S/4HANA Cloud) requires basic authentication to be
 
 Let's explore what we can do to mitigate this.
 
+<p align = "center">
+    <img alt="To be - SAP S/4HANA Business Partner API with policies" src="../../assets/diagrams/exercise-12.png" width="85%"/><br/>
+    <i>To be - SAP S/4HANA Business Partner API with policies</i>
+</p>
+
 ## Identify the developer/application calling our API
 
 At the moment we are unable to identify the developer that's calling the API proxy that we created for our SAP S/4HANA Cloud Business Partner API. Before we can set a policy that can control the number of calls made by an application/developer, we will first need to apply the same policy that we applied in exercise 10, the [Verify API Key](https://help.sap.com/docs/sap-api-management/sap-api-management/verify-api-key) policy. 

@@ -4,6 +4,11 @@ So far, we've seen how we can discover, copy, deploy and publish APIs available 
 
 At the end of this exercise, you'll have successfully used an OpenAPI specification to create an API and its resources in SAP API Management.
 
+<p align = "center">
+    <img alt="To be - Nager.Date API added" src="../../assets/diagrams/exercise-7.png" width="85%"/><br/>
+    <i>To be - Nager.Date API added</i>
+</p>
+
 ## Public Holidays around the world
 
 As mentioned in the [API Management scenario](../../README.md#api-management-scenario), ITeLO has a global workforce, with many offices around the world. Every country has different public holidays and it is important to know which dates are public holidays in each location, for planning/HR purposes. Currently, different teams maintain this information in different ways, e.g. spreadsheets/consuming different API and the data is not consistent across the organisation. Our goal is to provide a single point of reference (API) that all the different applications in the organisation can use/refer to know the public holidays of the different locations. This will help to harmonise this important data across the organisation.

@@ -31,5 +31,6 @@ $ mkvirtualenv sap-diagrams
 $ poetry install --no-dev
 
 # Now you can run one of scripts above locally. This will generate a png file with the output.
-$ python final-diagram.py
+$ python without-apim-data-flow.py
+$ python exercise-diagrams.py -e 3,7,8,10,11,12,13
 ```

@@ -4,6 +4,11 @@ So far, we've created and published APIs in SAP API Management but haven't added
 
 At the end of this exercise, you'll be familiar with some basic API policies and how to apply them to your APIs.
 
+<p align = "center">
+    <img alt="To be - Nager.Date API with policy" src="../../assets/diagrams/exercise-10.png" width="85%"/><br/>
+    <i>To be - Nager.Date API with policy</i>
+</p>
+
 ## Policies
 
 The additional functionality can be set in SAP API Management in the form of [Policies](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/7e4f3e590f164996994cddc8e48bf7f5.html?locale=en-US). A policy is a program that executes a specific function at runtime, allowing us to add the extra functionality to our API. 

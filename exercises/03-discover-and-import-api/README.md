@@ -2,6 +2,11 @@
 
 At the end of this exercise, you'll have successfully searched for an API listed in the SAP Business Accelerator Hub, via the Discover functionality in SAP API Management, and imported the API to your instance.
 
+<p align = "center">
+    <img alt="To be - SAP S/4HANA Cloud Business Partner API" src="../../assets/diagrams/exercise-3.png" width="85%"/><br/>
+    <i>To be - SAP S/4HANA Cloud Business Partner API</i>
+</p>
+
 ## Discover APIs
 
  In the Discover > APIs section of SAP Integration Suite, you'll be able to find [all the API packages that you can access via the SAP Business Accelerator Hub](https://api.sap.com/content-type/API/apis/packages). This includes API packages for SAP products, as well as API packages made available by SAP partners.

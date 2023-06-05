@@ -4,6 +4,11 @@ In this exercise, we will expose our integration flow via API Management and tak
 
 To achieve the above we create an API in API Management that will act as a proxy to our integration flow and we will leverage an OpenAPI specification to create it. Remember that we learnt about OpenAPI specifications in [exercise 01](../01-open-api-specification/README.md) of this CodeJam.
 
+<p align = "center">
+    <img alt="To be - Including SAP Cloud Integration Integration Flow" src="../../assets/diagrams/exercise-14.png" width="85%"/><br/>
+    <i>To be - Including SAP Cloud Integration Integration Flow</i>
+</p>
+
 ## Create API by importing OpenAPI specification
 
 An OpenAPI specification for an integration flow is included in the assets of this CodeJam - [integration-flow-openapi-spec-1.0.0.json](../../assets/cloud-integration/integration-flow-openapi-spec-1.0.0.json). The spec describes the endpoint that's being exposed in SAP Cloud Integration and the data structure of the request and response expected from our endpoint.

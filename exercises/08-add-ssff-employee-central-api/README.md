@@ -4,6 +4,11 @@ Now that we are familiar with the basic functions of creating, saving, deploying
 
 At the end of this exercise, you'll have successfully published a new product and you'll be familiar with the sandbox environment part of the SAP Business Accelerator Hub.
 
+<p align = "center">
+    <img alt="To be - SAP SuccessFactors Employee Information API" src="../../assets/diagrams/exercise-8.png" width="85%"/><br/>
+    <i>To be - SAP SuccessFactors Employee Information API</i>
+</p>
+
 ## Personal Information API
 
 The Personal Information API part of SAP SuccessFactors Employee Central provides us access to the personal information of an employee. For example, we can retrieve emergency contact information, social media accounts, email address and non-effective-dated biographical information. Let's get familiar with the resources exposed in the Personal Information API.
