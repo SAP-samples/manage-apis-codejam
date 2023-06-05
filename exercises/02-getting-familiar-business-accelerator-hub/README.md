@@ -46,14 +46,14 @@ Available values: to_BuPaIdentification, to_BuPaIndustry, to_BusinessPartnerAddr
 
 > Why is this important? We will be using Business Partner Address data in our integration service to know to which server we will route our request.
 
-🧭 Take some time to explore what's documented on the [Business Partner API - Overview page](https://api.sap.com/api/API_BUSINESS_PARTNER/overview). You will be able to find lots of valuable information here, e.g. attributes, authentication methods, API specifications, and configuration details. In [exercise 02](../02-open-api-specification/) we will explore API specifications further.
+🧭 Take some time to explore what's documented on the [Business Partner API - Overview page](https://api.sap.com/api/API_BUSINESS_PARTNER/overview). You will be able to find lots of valuable information here, e.g. attributes, authentication methods, API specifications, and configuration details.
 
 
 ## Summary
 
 Now that you are familiar with the basic functionality of SAP Business Accelerator Hub and the Business Partner API, we are ready to start interacting with the services from which our integration will be extracting data.
 
-Although we focused, in this exercise, on exploring APIs.... you can also find other types of objects in the Business Accelerator Hub, e.g. API Management - Policy templates. We will see more on this in [exercise 0X](../0X-expose-integration-flow-api-management/).
+Although we focused, in this exercise, on exploring APIs.... you can also find other types of objects in the Business Accelerator Hub, e.g. API Management - Policy templates. We will see more on this in [exercise 10](../10-api-policies/README.md).
 
 ## Further Study
 
