@@ -1,6 +1,11 @@
 # Exercise 01 - The OpenAPI specification
 
-In this exercise, we will learn about the OpenAPI specification. We start here as it is a critical concept that we will use at different points in this CodeJam. 
+In this exercise, we will learn about the OpenAPI specification. We start here as it is a critical concept that we will use at different points in this CodeJam and something that you will be using as more and more APIs are exposed via SAP API Management.
+
+<p align = "center">
+    <img alt="OpenAPI initiative logo" src="assets/OpenAPI-Initiative.png" width="30%"/><br/>
+    <i>OpenAPI initiative</i>
+</p>
 
 ## What is an OpenAPI specification?
 
@@ -14,9 +19,9 @@ In simple terms, the specification is a document that describes an API.
 
 ## History of the OpenAPI specification
 
-The OpenAPI specification was donated to the Linux Foundation under the [OpenAPI Initiative](https://www.openapis.org/) back in 2015. Before this, it was known as Swagger specification. You might bump into some websites/documentation that still refers to the specification as Swagger or use Swagger and OpenAPI spec interchangeably. The proper name is OpenAPI, not Swagger or Open API, and it is how I will refer to it in this blog post.
+The OpenAPI specification was donated to the Linux Foundation under the [OpenAPI Initiative](https://www.openapis.org/) back in 2015. Before this, it was known as Swagger specification. You might bump into some websites/documentation that still refers to the specification as Swagger or use Swagger and OpenAPI spec interchangeably. The proper name is OpenAPI, not Swagger or Open API, and it is how I will refer to it.
 
-    [Swagger](https://swagger.io/) is a collection of tools for API development created by [SmartBear Software](https://smartbear.com/). One of its most popular tools, and one that you’ve probably seen around, is [Swagger UI](https://swagger.io/tools/swagger-ui/). Swagger UI is commonly embedded in products, to allow developers to test the APIs that they publish. You can see a Swagger UI in the SAP Ariba Developer Portal or the API Business Hub Enterprise. Unfortunately, people commonly refer to Swagger UI as just Swagger which can be confusing at times.
+> [Swagger](https://swagger.io/) is a collection of tools for API development created by [SmartBear Software](https://smartbear.com/). One of its most popular tools, and one that you’ve probably seen around, is [Swagger UI](https://swagger.io/tools/swagger-ui/). Swagger UI is commonly embedded in products, to allow developers to test the APIs that they publish. You can see a Swagger UI in the SAP Ariba Developer Portal or the API Business Hub Enterprise. Unfortunately, people commonly refer to Swagger UI as just Swagger which can be confusing at times.
 
 ## Why is it important?
 
@@ -31,32 +36,34 @@ The OpenAPI specification is an industry-standard, it is widely adopted by diffe
 
 The OpenAPI spec can be in JSON or YAML format. To get familiar with the content of an OpenAPI spec document, let’s look at the OpenAPI spec of an API available in the Business Accelerator Hub. If you download the JSON file listed within a product API, e.g. SAP S/4HANA Cloud – [Business Partner API (A2X)](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) (API resources > API specification > JSON), and inspect it. You’ll notice a structure like the one in the screenshots below.
 
-In the OpenAPI spec, there are only 3 required sections – openapi, info, and paths:
+In the OpenAPI spec, there are only 3 required sections – `openapi`, `info`, and `paths`:
 
 <p align = "center">
     <img alt="OpenAPI specification document - headers" src="./assets/open-api-spec-headers.png" width="90%"/><br/>
     <i>OpenAPI specification document - headers</i>
 </p>
 
-- openapi: We can see that the spec below follows the OpenAPI spec version 3.0.0.
-- info: Includes some metadata of the API.
-- paths: This section tells us all the available paths.
+- `openapi`: We can see that the spec below follows the OpenAPI spec version 3.0.0.
+- `info`: Includes some metadata of the API.
+- `paths`: This section tells us all the available paths.
 
     <p align = "center">
         <img alt="OpenAPI specification paths" src="./assets/open-api-spec-paths.png" width="90%"/><br/>
         <i>OpenAPI specification paths</i>
     </p>
 
-    Specification extensions: All the x- fields, e.g. x-sap-api-type, x-sap-shortText, x-sap-api-deprecated, that are included in the image above are extension fields. In this case, they are there to document additional information for the different types of APIs that SAP products expose. The SAP Business Accelerator Hub process these specification extensions to better reflect the APIs in the UI.
-- operations: A path can have multiple operations (GET, PUT, POST, DELETE, etc.) for the API. You can think of operations as the HTTP methods allowed for a path.
+    Specification extensions: All the `x-` fields, e.g. `x-sap-api-type`, `x-sap-shortText`, `x-sap-api-deprecated`, that are included in the image above are extension fields. In this case, they are there to document additional information for the different types of APIs that SAP products expose. The SAP Business Accelerator Hub process these specification extensions to better reflect the APIs in the UI.
+- `operations`: A path can have multiple operations (GET, PUT, POST, DELETE, etc.) for the API. You can think of operations as the HTTP methods allowed for a path.
 
-All other sections in the spec, e.g. components, externalDocs, security, servers, tags are optional. In the screenshots, we can see that these have been specified for the API but they might not be included, e.g. if there is no server information or no security in the API. Let’s explore these optional sections:
+All other sections in the spec, e.g. `components`, `externalDocs`, `security`, `servers`, `tags` are optional. In the screenshots, we can see that these have been specified for the API but they might not be included, e.g. if there is no server information or no security in the API. Let’s explore these optional sections:
 
-- components: Contains the schemas of the different data structures expected by our API. Defining this can help developers understand the different objects and their structures.
-- externalDocs: Additional external documentation.
-- security: Security mechanism supported by the API, e.g. Basic authentication, OAuth 2.0.
-- servers: Connectivity information for the server(s) where the API is available.
-- tags: Additional metadata can be provided in this section.
+- `components`: Contains the schemas of the different data structures expected by our API. Defining this can help developers understand the different objects and their structures.
+- `externalDocs`: Additional external documentation.
+- `security`: Security mechanism supported by the API, e.g. Basic authentication, OAuth 2.0.
+- `servers`: Connectivity information for the server(s) where the API is available.
+- `tags`: Additional metadata can be provided in this section.
+
+🧭 Take some time to explore the SAP S/4HANA Cloud  Business Partner API (A2X) OpenAPI specifications ([YAML](assets/API_BUSINESS_PARTNER.yaml), [JSON](assets/API_BUSINESS_PARTNER.json) format) included in this exercise.
 
 Also, it is important to highlight that the OpenAPI specification has been adopted in different SAP products:
 - Cloud Application Programming model:
