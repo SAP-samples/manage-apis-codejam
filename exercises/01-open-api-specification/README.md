@@ -7,6 +7,11 @@ In this exercise, we will learn about the OpenAPI specification. We start here a
     <i>OpenAPI initiative</i>
 </p>
 
+<p align = "center">
+    <img alt="OpenAPI specification logo" src="./assets/OpenAPI_Specification_Logo_Pantone1.png" width="80%"/><br/>
+    <i>OpenAPI specification logo</i>
+</p>
+
 ## What is an OpenAPI specification?
 
 > From the specification [website](https://swagger.io/specification/)...
