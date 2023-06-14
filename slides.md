@@ -75,13 +75,20 @@ October, 2022
 
 ![SAP Integration Suite](assets/sap-integration-suite-services.png)
 
+---
+<!-- paginate: true -->
+
+# SAP Integration Suite
+
+![SAP Integration Suite](assets/sap-integration-suite-who-benefits.png)
+
 --- 
 
 # SAP CodeJam - API Management scenario
 
 
 <!-- _class: centersingleimage -->
-![width:22cm height:14cm](assets/diagrams/final-data-flow.png)
+![width:22cm height:14cm](assets/diagrams/exercise-14.png)
 
 
 --- 
