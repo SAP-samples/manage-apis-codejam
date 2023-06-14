@@ -21,7 +21,7 @@ See below for an overview of the exercises part of this CodeJam.
   * [Exercise 04 - Deploy an API](./04-deploy-an-api/README.md)
   * [Exercise 05 - Testing an API using the API Test Console](./05-testing-api/README.md)
   * [Exercise 06 - Publishing our API](./06-publish-api/README.md)
-  * [Exercise 07 - Publish the API in the API Business Hub Enterprise](./07-import-api-openapi-spec/README.md)
+  * [Exercise 07 - Import an API using an OpenAPI specification](./07-import-api-openapi-spec/README.md)
   * [Exercise 08 - Add an SAP SuccessFactors Employee Central API](./08-add-ssff-employee-central-api/README.md)
   * [Exercise 09 - Monitoring APIs](./09-monitoring-apis/README.md)
   * [Exercise 10 - API policies](./10-api-policies/README.md)
