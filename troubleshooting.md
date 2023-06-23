@@ -25,6 +25,13 @@ This page intends to capture common problems that you might face while going thr
     <i>Toggle - New design</i>
   </p>
 
+- #### Not creating API after importing OpenAPI specification document
+  When trying to create an API by importing an OpenAPI specification document, it might happen that after selecting the file and clicking the OK button to proceed, nothing happens. Just refresh your browser and try again as it is likely that your session has expired.
+  <p align = "center">
+    <img alt="Not creating API when importing OpenAPI specification" src="assets/not-importing-openapi-document.gif" width="90%"/><br/>
+    <i>Not creating API when importing OpenAPI specification</i>
+  </p>
+
 ### When using the SAP BTP Trial environment
 
 - #### `APIs` menu item is not listed under the `Settings` menu in the SAP Integration Suite UI
@@ -32,7 +39,7 @@ This page intends to capture common problems that you might face while going thr
   The APIs menu item is not needed in the trial environment as the settings are automatically set on your behalf.
 
   <p align = "center">
-    <img alt="APIs menu item not listed under Settings" src="assets/apis-not-listed-in-settings.gif" width="80%"/><br/>
+    <img alt="APIs menu item not listed under Settings" src="assets/apis-not-listed-in-settings.gif" width="90%"/><br/>
     <i>APIs menu item not listed under Settings</i>
   </p>
 
