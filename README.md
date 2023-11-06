@@ -81,6 +81,7 @@ See below for an overview of the exercises part of this CodeJam.
     * [Exercise 13 - Editing API paths, operations, and documentation](./exercises/13-api-designer/README.md)
     * [Optional Exercise 01 - Expose integration flow via API Management](./exercises/optional-01-expose-integration-flow-api-management/README.md)
     * [Optional Exercise 02 - API Security Best Practices](./exercises/optional-02-security-best-practices/README.md)
+    * [Optional Exercise 03 - API Provider](./exercises/optional-03-api-provider/README.md)
   
 ### Troubleshooting
 

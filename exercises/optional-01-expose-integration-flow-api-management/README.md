@@ -44,6 +44,8 @@ After publishing the product, we can navigate to the API Business Hub Enterprise
 <i>API Business Hub Enterprise - Business Partners product</i>
 </p>
 
+> As an alternative to importing an OpenAPI spec for an Integration Flow, we can also configure Cloud Integration as an API Provider and set up OAuth for Cloud Integration in Cloud Foundry, to learn more - https://help.sap.com/docs/sap-api-management/sap-api-management/setting-up-oauth-for-cloud-integration-in-cloud-foundry?locale=en-US
+
 ## Send a message to the integration flow via API Management 
 
 Now that we've created the `Request_Employee_Dependants_v1` API, we can communicate with our integration flow through API Management.
@@ -177,6 +179,7 @@ We've achieved a lot in this exercise. We used an OpenAPI specification to creat
 * [API Management - Security Best Practices blog post](https://blogs.sap.com/2017/08/22/sap-cloud-platform-api-management-api-security-best-practices/)
 * [Security Best Practices - Policy Templates](https://api.sap.com/package/SecurityBestPractices/policytemplate)
 * [Additional Attributes in OpenAPI Specification](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/35f357c811f546c5ae3451df42f61ea0.html?locale=en-US)
+
 
 ---
 
