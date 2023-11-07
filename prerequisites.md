@@ -2,8 +2,6 @@
 
 There are hardware, software and service prerequisites for participating in this CodeJam. The exercises will be developed using the SAP API Management capability of SAP Integration Suite and communicating with remote services that will be made available for the CodeJam. 
 
-Alternatively, the remote services can be run locally and we can use [Cloud Connector](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/e6c7616abb5710148cfcf3e75d96d596.html?locale=en-US) to enable the communication between SAP BTP and the local service. The prerequisites to run it locally are included in [running-locally-prerequisites.md](running-locally-prerequisites.md) *Note: This is recommended if you are doing this exercise outside of a CodeJam event*. 
-
 ## Accessing the supporting material referenced in exercises
 
 In this CodeJam, you will see that across exercises, there are references to files that will help you get started or that are needed to complete the activities. To access these files, you can download the individual files directly from the repository website, or you can make a copy of the repository on your local machine by following one of the options below:
