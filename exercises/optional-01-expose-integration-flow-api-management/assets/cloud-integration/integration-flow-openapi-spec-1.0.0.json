@@ -19,7 +19,7 @@
   },
   "servers": [
     {
-      "url": "https://antonio-maradiaga-free-tier-aaq3l49g.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/request-employee-dependants-cc"
+      "url": "https://antonio-maradiaga-free-tier-aaq3l49g.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com"
     }
   ],
   "tags": [
@@ -29,7 +29,7 @@
     }
   ],
   "paths": {
-    "/http/request-employee-dependants-ex7": {
+    "/http/request-employee-dependants-manage-apis": {
       "post": {
         "tags": [
           "cloud-integration"

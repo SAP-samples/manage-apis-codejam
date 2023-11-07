@@ -17,8 +17,8 @@ An OpenAPI specification for an integration flow is included in the assets of th
 > 🔐 In our case, the CodeJam facilitator will provide you with the URL and credentials required to call the integration flow.
 
 👉 Open the specification file located under the assets folder in the root of the repository, e.g. `./assets/cloud-integration/integration-flow-openapi-spec-1.0.0.json` and check that the following components match the ones provided by your instructor. 
-- `.servers.url`: Replace the value `https://your-tenant-free-tier-gfm1c35e.it-cpi018-rt.cfapps.eu10-654.hana.ondemand.com` with the value configured for `cpi_host` variable in the Postman environment that communicates with the integration flow.
-- *(Optional)* `.paths`: Check the value in paths matches the value in the Postman environment, e.g. `/http/request-employee-dependants-cc`.
+- `.servers.url`: Replace the value `https://antonio-maradiaga-free-tier-aaq3l49g.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com` with the value configured for `cpi_host` variable in the Postman environment that communicates with the integration flow.
+- *(Optional)* `.paths`: Check the value in paths matches the value in the Postman environment, e.g. `/http/request-employee-dependants-manage-apis`.
 
 Once we've updated the specification file, we can use this to create an API in SAP API Management. Once the API is created we will add it to the Developer Portal. First, let's go ahead and create the API.
 
