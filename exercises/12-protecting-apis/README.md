@@ -121,7 +121,7 @@ If you finish earlier than your fellow participants, you might like to ponder th
 
 1. In which scenario will it make sense to grant an application access to multiple products? 
 2. The spike arrest policy and the quota policy are similar but there is an important difference between them. What is it?
-3. Let's imagine you've applied the quota policy to an API. You might have noticed that we can specify a quota for a product in the Product Overview tab (`Design > APIs > Products` tab - select any Product). Which of these quotas takes precedence?
+3. Let's imagine you've applied the quota policy to an API. You might have noticed that we can specify a quota for a product in the Product Overview tab (`Engage > Products` tab - select any Product). Which of these quotas takes precedence?
 4. Can you think of other policies, which you can apply to your APIs, and can ease the load of the server? 
 
 ## Next

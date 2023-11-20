@@ -40,7 +40,7 @@ Nager.Date makes its data available via an [API](https://date.nager.at/Api). If 
 
 Now that we are familiar with the API, let's proceed to make it available to our developers via SAP API Management.
 
-👉 In SAP Integration Suite, navigate to `Design > APIs` and click the `Import` button and select [Nager.Date's OpenAPI specification](./assets/date.nager.at-openapi.json). 
+👉 In SAP Integration Suite, navigate to `Configure > APIs` and click the `Import` button and select [Nager.Date's OpenAPI specification](./assets/date.nager.at-openapi.json). 
 
 <p align = "center">
     <img alt="Import Nager.Date's OpenAPI specification" src="assets/import-openapi-spec.gif" width="100%"/><br/>

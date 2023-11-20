@@ -1,6 +1,6 @@
 # Exercise 11 - Consume protected APIs by creating an application
 
-In the previous exercise, we explored how we can add policies to our APIs but not we face a new issue, we require an API key to call our API. 
+In the previous exercise, we explored how we can add policies to our APIs but now we face a new issue, we require an API key to call our API. 
 
 At the end of this exercise, you'll have successfully called an API proxy that implements the VerifyAPIKey policy in SAP API Management.
 

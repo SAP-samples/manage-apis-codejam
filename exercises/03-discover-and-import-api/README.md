@@ -54,11 +54,11 @@ To import the API, we will need to Copy the artefact to our API Management insta
 <i>Copy API - details</i>
 </p>
 
-Once the API was copied successfully, it will be listed within the `Design > API` section of Integration Suite. The screen below shows us basic information about our API, e.g. Status, Type, who changed it last and when was it last updated. We can see that the status of the API is Not Deployed, meaning that it is still not possible to access it through SAP API Management.
+Once the API was copied successfully, it will be listed within the `Configure > API` section of Integration Suite. The screen below shows us basic information about our API, e.g. Status, Type, who changed it last and when was it last updated. We can see that the status of the API is Not Deployed, meaning that it is still not possible to access it through SAP API Management.
 
-![Design > API - List](assets/design-apis-list.png))
+![Configure > API - List](assets/design-apis-list.png))
 <p align = "center">
-<i>Design > API - List</i>
+<i>Configure > API - List</i>
 </p>
 
 <details>

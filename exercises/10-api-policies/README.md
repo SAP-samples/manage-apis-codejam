@@ -42,10 +42,10 @@ In your exploration a minute ago, you might have noticed that there are two poli
 
 > The SAP API Management policy template is a collection of policies or behaviors that can be reused across API Proxies which can help us securing our API Proxies.
 
-Once copied to our SAP API Management instance, you can find the policy template in the `Design > APIs` view under the `Policy Templates` tab.
+Once copied to our SAP API Management instance, you can find the policy template in the `Configure > APIs` view under the `Policy Templates` tab.
 
 <p align = "center">
-    <img alt="Policy templates in Design > APIs" src="assets/design-policy-templates.png" width="75%"/><br/>
+    <img alt="Policy templates in Configure > APIs" src="assets/design-policy-templates.png" width="75%"/><br/>
     <i>Policy templates in SAP API Management instance</i>
 </p>
 

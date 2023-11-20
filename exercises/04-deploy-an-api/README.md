@@ -47,7 +47,7 @@ No changes are required for our API at the moment, it is good as it is so we can
 </p>
 
 <details>
-<summary><i>ℹ️ This action can also be performed from the <code>Design > APIs</code> list. Every item listed has an actions button which contains the <code>Deploy/Undeploy</code> action</i></summary>
+<summary><i>ℹ️ This action can also be performed from the <code>Configure > APIs</code> list. Every item listed has an actions button which contains the <code>Deploy/Undeploy</code> action</i></summary>
 <br />
 
 ![API actions](./assets/api-actions.png)
@@ -64,7 +64,7 @@ There are instances where we would want to un-deploy an API, e.g. decommissionin
 
 > Note: There is no need to un-deploy an API to make changes to it. We can just edit the API and the changes will not be active until we re-deploy the API.
 
-⌥ To un-deploy an API, access a deployed API, expand the `Additional options` and click `Un-Deploy`. Same as before, this action can be performed directly from the Design > APIs list.
+⌥ To un-deploy an API, access a deployed API, expand the `Additional options` and click `Un-Deploy`. Same as before, this action can be performed directly from the Configure > APIs list.
 
 ![Un-Deploy API](assets/undeploy-api.png)
 <p align = "center">

@@ -24,7 +24,7 @@ Once we've updated the specification file, we can use this to create an API in S
 
 > In case you wonder how the OpenAPI spec included in the assets was created.... The file was generated from a Postman collection, with the help of the [postman-to-openapi](https://github.com/joolfe/postman-to-openapi) CLI. The output of the utility isn't the file that's in the repo but it was great starting point to define the API specification. 
 
-👉 Navigate to the `Develop > APIs` component of SAP Integration Suite and click the `Import API` button. Select the recently modified OpenAPI spec and create a version for the API, e.g. v1. Check that everything is fine after importing the file and click the `Save` button. Once saved, you can `Deploy` the API.
+👉 Navigate to the `Configure > APIs` component of SAP Integration Suite and click the `Import API` button. Select the recently modified OpenAPI spec and create a version for the API, e.g. v1. Check that everything is fine after importing the file and click the `Save` button. Once saved, you can `Deploy` the API.
 
 <p align = "center">
     <img alt="Import OpenAPI specification to create API" src="assets/import-spec-create-api.gif" width="100%"/><br/>
@@ -33,7 +33,7 @@ Once we've updated the specification file, we can use this to create an API in S
 
 To expose the API in the Developer Portal (API Business Hub Enterprise) we first need to add it to a Product and include the API within it. Let's go ahead, create the product and publish it.
 
-👉 In the `Develop > APIs` component of SAP Integration Suite, click the `Create button` in the `Products` tab. Enter a name and a title, e.g. `Business Partners` and include the `Request_Employee_Dependants_v1` API. Lastly, click the `Publish button`.
+👉 In the `Engage` component of SAP Integration Suite, click the `Create button` in the `Products` tab. Enter a name and a title, e.g. `Business Partners` and include the `Request_Employee_Dependants_v1` API. Lastly, click the `Publish button`.
 
 > For a detailed step by step instruction on creating a Product, checkout [exercise 06](../06-publish-api/README.md).
 
@@ -187,5 +187,11 @@ If you finish earlier than your fellow participants, you might like to ponder th
 
 1. How can we restrict which products/APIs are visible to developers in the API Business Hub Enterprise?
 2. How long does it take for a request to be processed? Where can you find this information in API Management? What other information about our requests is available here?
+3. Alternatively, how else could have we created an API from an integration flow? 
+   <details>
+    <summary>Hint 🔦</summary>
+    <i><a href="https://help.sap.com/docs/sap-api-management/sap-api-management/create-api-provider">An API Provider</a> can be of connection type - Cloud Integration</i>
+    </details>
+4. 
 
 [^1]: OpenAPI Specification: [https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#infoObject](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#infoObject)

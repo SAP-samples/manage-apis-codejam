@@ -40,7 +40,7 @@ So far we've imported an API and configured the host and port details of our ser
 
 You might have noticed that the API we imported is one of many APIs exposed by SAP S/4HANA Cloud. Logically, we might want to keep all the APIs that belong to a specific product together (grouping). This is possible in SAP API Management by creating a `Product` and assigning the relevant APIs to a product.
 
-👉 In SAP Integration Suite, navigate to `Design > APIs`, select the `Products` tab and click the `Create` button.
+👉 In SAP Integration Suite, navigate to `Engage`, select the `Products` tab and click the `Create` button.
 
 ![Create product in SAP API Management](assets/create-product.gif)
 <p align = "center">
