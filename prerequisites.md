@@ -40,7 +40,7 @@ The application can also be used with Safari browser and Internet Explorer 9. Ho
 
 ### Postman
 
-[Postman](https://www.getpostman.com/downloads/), to send requests to the integration flows that we deploy to SAP Cloud Integration. Follow the installation instructions included in this [tutorial: Install Postman REST Client](https://developers.sap.com/tutorials/api-tools-postman-install.html).
+[Postman](https://www.getpostman.com/downloads/), used to get familiar with the SAP S/4HANA Cloud API and send some requests to an SAP Cloud Integration iFlow. Follow the installation instructions included in this [tutorial: Install Postman REST Client](https://developers.sap.com/tutorials/api-tools-postman-install.html).
   > Once installed you can import the collection and environments included in the `./manage-apis-codejam/assets/postman` folder.
 
   > ![Import objects to Postman](./assets/import-objects-to-Postman.gif)
