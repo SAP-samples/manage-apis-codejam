@@ -78,7 +78,7 @@ Unfortunately, you will get an error message like the one shown in the gif below
 - Query, key: `$top`, value: `5`
 
 <p align = "center">
-    <img alt="Add header and query parameters" src="assets/blur-api-key-abhe-blur.gif" width="50%"/><br/>
+    <img alt="Add header and query parameters" src="assets/blur-api-key-abhe-blur.gif" width="85%"/><br/>
     <i>Add header and query parameters</i>
 </p>
 
@@ -98,8 +98,12 @@ Now we are very familiar with the process of discovering, importing, and deployi
 
 If you finish earlier than your fellow participants, you might like to ponder these questions. There isn't always a single correct answer and there are no prizes - they're just to give you something else to think about.
 
-1. First question.
-2. Second question.
+1. The response is in XML format.... how can we specify to the server that we would like our response to be in JSON format?
+2. Where can you find the MIME types that an operation can produce?
+   <details>
+    <summary>Hint 🔦</summary>
+    <i>Check out the OpenAPI specification document for the API in question.</i>
+    </details>
 
 ## Next
 
