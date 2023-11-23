@@ -61,7 +61,7 @@ To ensure that everything is working fine, I encourage you to test the changes f
     <i>SAP S/4HANA Cloud Business Partner API proxy with Verify API Key header</i>
 </p>
 
-> We need to specify the `APIM-APIKey` header and the authentication details of our SAP S/4HANA Cloud system to get a successful call.
+> We need to specify the `APIKey` header and the authentication details of our SAP S/4HANA Cloud system to get a successful call.
 
 ## Spike Arrest policy
 
