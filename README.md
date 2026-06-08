@@ -2,15 +2,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/manage-apis-codejam)](https://api.reuse.software/info/github.com/SAP-samples/manage-apis-codejam)
 
 ---
-## *SAP CodeJam events scheduled*
-
-- 2023-11-23: 🇪🇸 SAP CodeJam BTP: Managing APIs in your landscape with SAP API Management (Barcelona, Spain) - [RSVP here 🗓️](https://groups.community.sap.com/t5/sap-codejam/sap-codejam-btp-managing-apis-in-your-landscape-with-sap-api-management/ev-p/292642).
-<p align = "center">
-    <img alt="CodeJam Barcelona" src="assets/art/CodeJam_Art_ManageAPIs_Barcelona.png" width="85%"/><br/>
-    <i>SAP CodeJam in Barcelona</i>
-</p>
-
----
 
 Welcome to the Managing APIs in your landscape with SAP API Management CodeJam repository. In this SAP CodeJam, we will look at SAP API Management part of the SAP Integration Suite and how we can use it to manage the different APIs exposed by our systems and services.
 
